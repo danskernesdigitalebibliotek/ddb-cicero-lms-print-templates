@@ -3,7 +3,7 @@ Templates for sending Cicero LMS messages i JSON to REST service via gateway [CP
 
 <fieldset>
     <legend>&#x26A0; Warning!</legend>
-    These templates are in an <i>alpha</i> stage. Do <b>not</b> use them in production!
+    <p>These templates are in an <i>alpha</i> stage. Do <b>not</b> use them in production!</p>
 </fieldset>
 
 Specific messages are converted into JSON structures for [Freemarker](http://freemarker.org/docs/dgui.html) templates for Cicero
