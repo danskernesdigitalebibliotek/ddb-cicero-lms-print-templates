@@ -1,7 +1,12 @@
 # ddb-cicero-lms-print-templates
 Templates for sending Cicero LMS messages i JSON to REST service via gateway [CPX0196]
 
-Specific messages are converted into JSON structures for [Freemkarker](http://freemarker.org/docs/dgui.html) templates for Cicero
+<fieldset>
+    <legend>&#x26A0; Warning!</legend>
+    These templates are in an <i>alpha</i> stage. Do <b>not</b> use them in production!
+</fieldset>
+
+Specific messages are converted into JSON structures for [Freemarker](http://freemarker.org/docs/dgui.html) templates for Cicero
 
 These templates are to be included in FBS.
 
