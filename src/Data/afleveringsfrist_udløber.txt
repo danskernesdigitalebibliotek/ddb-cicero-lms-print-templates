@@ -1,0 +1,96 @@
+#4.16 Afhentningsfrist udløber om et par dage
+## Notifikation til låner angående en reservations afhentningsfrist dato nærmer sig.
+### 4.16.2 Model Felt Beskrivelse Eksempel
+data.agency
+Biblioteket
+data.agency.name
+Bibliotekets navn
+Esbjerg Kommunes Biblioteker
+data.daysBeforeSendingNotification
+Dage før afhentningsfrist af en reservation udløber at notifikation sendes
+2
+data.loaner
+Låntager er anmeldt af forbehold er ved at udløbe.
+data.loaner.addressCity
+Lånerens by
+Århus C
+data.loaner.addressStreet
+Lånerens adresse (gadenavn og nummer)
+Rådhuspladsen 7
+data.loaner.coName
+Lånerens c/o navn
+c/o Kasper Nielsen
+data.loaner.countryCode
+Lånerens land kode
+DK
+data.loaner.loanerGroups
+Lånerens lånergrupper
+data.loaner.loanerGroups.loanerGroupName
+Lånergruppens navn
+9b
+data.loaner.loanerGroups.loanerGroupNameWithHierarchyPath
+Lånergruppens navn vist med hele den hierarkiske sti
+Møllevang Skole/Elever/9b
+data.loaner.loanerGroups.loanerGroupNameWithRoot
+Lånergruppens navn vist med det første niveau i den hierarkiske sti
+Møllevang Skole /9b
+data.loaner.loanerNumber
+Lånerens lånernummer
+H1234567890
+data.loaner.name
+Lånerens fulde navn
+Mette Jensen
+data.loaner.preferredLanguage
+Lånerens foretrukne sprog
+dk
+data.loaner.zipCode
+Lånerens postnummer
+8000
+data.reservations
+Reservations, der nærmer udløb.
+data.reservations.record
+Den bibliografiske post for reservationen
+data.reservations.record.author
+Postens forfatter
+Reuter bjarne
+data.reservations.record.classification
+Postens DK5 klassificering
+86
+data.reservations.record.faust
+Postens FAUST-nummer
+21133345
+data.reservations.record.title
+Postens titel
+Zappa
+data.reservations.record.type
+Postens DK5 type
+Bog
+data.reservations.reservation
+Detaljer om reservationen
+data.reservations.reservation.dateOfInterest
+Interessedato for reservationen
+17. april 2015
+data.reservations.reservation.latestPickupDate
+Seneste afhentningsdato for reservationen
+04. juli 2015
+data.reservations.reservation.notes
+Note til reservation
+Til læsekreds
+data.reservations.reservation.periodical
+Sand hvis reservationen er af et periodikum, ellers falsk
+true
+data.reservations.reservation.periodicalName
+Udgave af periodika, hvis reservationen er af et periodikum
+Vol. 1, nr. 6, år 2015
+data.reservations.reservation.pickupBranch
+Afhentningsfilial
+Horsens Bibliotek
+data.reservations.reservation.pickupBranch.name
+Filialens navn
+Horsens Bibliotek
+data.reservations.reservation.pickupBranch.shortName
+Filialens korte navn
+hb
+data.reservations.reservation.reservationNumber
+Reservationsnummer for reservationen
+3

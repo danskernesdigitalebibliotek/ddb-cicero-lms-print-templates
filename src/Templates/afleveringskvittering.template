@@ -1,0 +1,37 @@
+{
+	"data": {
+		"agencyName": "${(data.agencyName)!""}",
+		"branchName": "${(data.branchName)!""}",
+		"loanerSummary": {
+			"balance": "${(data.loanerSummary.balance)!""}",
+			"loanerGroupNames": "${(data.loanerSummary.loanerGroupNames)!""}",
+			"loanerGroups": {
+				"loanerGroupName": "${(data.loanerSummary.loanerGroups.loanerGroupName)!""}",
+				"loanerGroupNameWithHierarchyPath": "${(data.loanerSummary.loanerGroups.loanerGroupNameWithHierarchyPath)!""}",
+				"loanerGroupNameWithRoot": "${(data.loanerSummary.loanerGroups.loanerGroupNameWithRoot)!""}"
+			},
+			"loanerName": "${(data.loanerSummary.loanerName)!""}",
+			"loanerNumber": "${(data.loanerSummary.loanerNumber)!""}",
+			"nextReturnDate": "${(data.loanerSummary.nextReturnDate)!""}",
+			"numberOfLateMaterials": "${(data.loanerSummary.numberOfLateMaterials)!""}",
+			"numberOfLoans": "${(data.loanerSummary.numberOfLoans)!""}",
+			"numberOfReservedReady": "${(data.loanerSummary.numberOfReservedReady)!""}",
+			"preferredLanguage": "${(data.loanerSummary.preferredLanguage)!""}"
+		},
+		"materialModels": {
+			"bibliographicRecord": {
+				"author": "${(data.materialModels.bibliographicRecord.author)!""}",
+				"classification": "${(data.materialModels.bibliographicRecord.classification)!""}",
+				"faust": "${(data.materialModels.bibliographicRecord.faust)!""}",
+				"title": "${(data.materialModels.bibliographicRecord.title)!""}",
+				"type": "${(data.materialModels.bibliographicRecord.type)!""}"
+			},
+			"itemNumber": "${(data.materialModels.itemNumber)!""}",
+			"loanedTime": "${(data.materialModels.loanedTime)!""}",
+			"periodicalName": "${(data.materialModels.periodicalName)!""}",
+			"returnDate": "${(data.materialModels.returnDate)!""}",
+			"returnedDate": "${(data.materialModels.returnedDate)!""}"
+		},
+		"nrCheckedInMaterials": "${(data.nrCheckedInMaterials)!""}"
+	}
+}

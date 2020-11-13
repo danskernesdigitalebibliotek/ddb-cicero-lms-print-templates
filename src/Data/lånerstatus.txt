@@ -1,0 +1,214 @@
+5.9 Lånerstatus
+Overblik over en låners lån, reservationer og mellemværende.
+5.9.2 Model Felt Beskrivelse Eksempel
+data.agencyName
+Biblioteket som udlånet er foretaget på
+Horsens Bibliotek
+data.feesModel
+Lånerens mellemværende
+data.feesModel.amount
+Beløb
+30,00
+data.feesModel.author
+Postens forfatter
+Reuter Bjarne
+data.feesModel.billDate
+Oprettet
+24. oktober 2017
+data.feesModel.billNumber
+Regningsnr.
+10000013
+data.feesModel.materialNumber
+Materialenr.
+LP-1000124
+data.feesModel.note
+Note til låner
+Bogen er afleveret for sent
+data.feesModel.remainingAmount
+Restbeløb
+130,25
+data.feesModel.status
+Status
+Oprettet 24-02-2017
+data.feesModel.title
+Postens titel
+Zappa
+data.feesModel.type
+Type
+Gebyr
+data.loanerModel
+Model med data for låneren
+data.loanerModel.addressCity
+Lånerens by
+Århus C
+data.loanerModel.addressStreet
+Lånerens adresse (gadenavn og nummer)
+Rådhuspladsen 7
+data.loanerModel.coName
+Lånerens c/o navn
+c/o Kasper Nielsen
+data.loanerModel.countryCode
+Lånerens land kode
+DK
+data.loanerModel.loanerGroups
+Lånerens lånergrupper
+data.loanerModel.loanerGroups.loanerGroupName
+Lånergruppens navn
+9b
+data.loanerModel.loanerGroups.loanerGroupNameWithHierarchyPath
+Lånergruppens navn vist med hele den hierarkiske sti
+Møllevang Skole/Elever/9b
+data.loanerModel.loanerGroups.loanerGroupNameWithRoot
+Lånergruppens navn vist med det første niveau i den hierarkiske sti
+Møllevang Skole/9b
+data.loanerModel.loanerNumber
+Lånerens lånernummer
+H1234567890
+data.loanerModel.name
+Lånerens fulde navn
+Mette Jensen
+data.loanerModel.preferredLanguage
+Lånerens foretrukne sprog
+dk
+data.loanerModel.zipCode
+Lånerens postnummer
+8000
+data.loansModel
+Lånerens udlån
+data.loansModel.author
+Postens forfatter
+Reuter Bjarne
+data.loansModel.combinedStatus
+Kombineret status
+Langtidslån, Kan først fornyes 7 dage før afl.fristen
+data.loansModel.loanTime
+Udlånsdato
+05. januar 2017
+data.loansModel.materialCategory
+Kategori
+Standard
+data.loansModel.materialNumber
+Materialenr.
+LP-1000124
+data.loansModel.materialTypes
+Materiale type
+Bog
+data.loansModel.price
+Materialets pris
+80
+data.loansModel.returnDate
+Afleveringsfrist
+05. januar 2017
+data.loansModel.status
+Status
+Fornyet
+data.loansModel.statusIndicator
+Sprog invariant status indikator Mulige værdier: LENDOUT, RENEWED, SUSPENDED, RETURNED, MATERIAL_LOST, MATERIAL_LOST_NOT_PAID
+RENEWED
+data.loansModel.title
+Postens titel
+Zappa
+data.loginBranchName
+Filial klienten er logget ind på
+Brædstrup Bibliotek
+data.noOfLoans
+Udlån
+5
+data.noOfPendingReservations
+Aktive reservationer
+5
+data.noOfReservationsForPickup
+Reservationer til afhentning
+5
+data.pendingReservationsModel
+Lånerens reservationer, som endnu ikke er opfyldt
+data.pendingReservationsModel.bibliographicRecordModel
+10632
+data.pendingReservationsModel.bibliographicRecordModel.author
+Postens forfatter
+Reuter Bjarne
+data.pendingReservationsModel.bibliographicRecordModel.classification
+Postens DK5 klassificering
+86
+data.pendingReservationsModel.bibliographicRecordModel.faust
+Postens FAUST-nummer
+21133345
+data.pendingReservationsModel.bibliographicRecordModel.title
+Postens titel
+Zappa
+data.pendingReservationsModel.bibliographicRecordModel.type
+Postens DK5 type
+bog
+data.pendingReservationsModel.createdTime
+Reserveret
+14. februar 2015
+data.pendingReservationsModel.dateOfInterest
+Interessedato for reservationen
+17. april 2015
+data.pendingReservationsModel.latestPickupDate
+Seneste afhentningsdato for reservationen
+04. juli 2015
+data.pendingReservationsModel.materialNumber
+Materialenr.
+LP-1000124
+data.pendingReservationsModel.pickupBranch
+Afhentningsfilial
+Horsens Bibliotek
+data.pendingReservationsModel.queueNo
+Kønr.
+3
+data.pendingReservationsModel.reservationNumber
+Reservationsnummer for reservationen
+3
+data.pendingReservationsModel.reservationType
+Res. type
+Enkelt
+data.reservationsForPickupModel
+Lånerens reservationer, som er klar til afhentning
+data.reservationsForPickupModel.bibliographicRecordModel
+10632
+data.reservationsForPickupModel.bibliographicRecordModel.author
+Postens forfatter
+Reuter Bjarne
+data.reservationsForPickupModel.bibliographicRecordModel.classification
+Postens DK5 klassificering
+86
+data.reservationsForPickupModel.bibliographicRecordModel.faust
+Postens FAUST-nummer
+21133345
+data.reservationsForPickupModel.bibliographicRecordModel.title
+Postens titel
+Zappa
+data.reservationsForPickupModel.bibliographicRecordModel.type
+Postens DK5 type
+bog
+data.reservationsForPickupModel.createdTime
+Reserveret
+14. februar 2015
+data.reservationsForPickupModel.dateOfInterest
+Interessedato for reservationen
+17. april 2015
+data.reservationsForPickupModel.latestPickupDate
+Seneste afhentningsdato for reservationen
+04. juli 2015
+data.reservationsForPickupModel.materialNumber
+Materialenr.
+LP-1000124
+data.reservationsForPickupModel.pickupBranch
+Afhentningsfilial
+Horsens Bibliotek
+data.reservationsForPickupModel.queueNo
+Kønr.
+3
+data.reservationsForPickupModel.reservationNumber
+Reservationsnummer for reservationen
+3
+data.reservationsForPickupModel.reservationType
+Res. type
+Enkelt
+data.totalAmounts
+Beløb i alt
+500
+data.totalRemainingAmounts
+Restbeløb i alt
+1000,12

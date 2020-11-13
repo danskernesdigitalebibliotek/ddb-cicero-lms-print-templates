@@ -1,0 +1,72 @@
+5.7 Betalingskvittering
+Kvittering når en låner har betalt erstatning og/eller gebyr.
+5.7.2 Model Felt Beskrivelse Eksempel
+data.amountPaid
+Det samlede beløb der er betalt
+200
+data.loaner
+Låneren som har betalt
+data.loaner.addressCity
+Lånerens by
+Århus C
+data.loaner.addressStreet
+Lånerens adresse (gadenavn og nummer)
+Rådhuspladsen 7
+data.loaner.coName
+Lånerens c/o navn
+c/o Kasper Nielsen
+data.loaner.countryCode
+Lånerens land kode
+DK
+data.loaner.loanerGroups
+Lånerens lånergrupper
+data.loaner.loanerGroups.loanerGroupName
+Lånergruppens navn
+9b
+data.loaner.loanerGroups.loanerGroupNameWithHierarchyPath
+Lånergruppens navn vist med hele den hierarkiske sti
+Møllevang Skole/Elever/9b
+data.loaner.loanerGroups.loanerGroupNameWithRoot
+Lånergruppens navn vist med det første niveau i den hierarkiske sti
+Møllevang Skole/9b
+data.loaner.loanerNumber
+Lånerens lånernummer
+data.loaner.name
+Lånerens fulde navn
+Mette Jensen
+data.loaner.preferredLanguage
+Lånerens foretrukne sprog
+en
+data.loaner.zipCode
+Lånerens postnummer
+8000
+data.loginBranchName
+Filial som materialet er afleveret på
+data.payments
+De betalinger der er foretaget
+data.payments.amountDue
+Evt. resterende beløb der mangler at blive betalt
+15.00
+data.payments.amountPaid
+Beløbet der er betalt
+20.00
+data.payments.compensation
+Hvorvidt der er tale om kompensation eller gebyr
+true
+data.payments.materialModelList
+Liste af materialer, det drejer sig om
+data.payments.materialModelList.author
+Forfatteren af materialet der er betalt for
+Reuter Bjarne
+data.payments.materialModelList.itemNumber
+Materialenummer for materialet der er betalt for
+5043580215
+data.payments.materialModelList.periodicalName
+Udgave
+Vol. 6 Nr. 0 År 2015
+data.payments.materialModelList.title
+Titlen af materialet der er betalt for
+Zappa
+data.payments.receiptNumber
+Kvitteringsnummer for betalingen
+3834936

@@ -1,0 +1,91 @@
+6.2 SMS skabelon for "Lån fornyet" (SMS forny)
+Det svar som sendes retur til afsender per SMS, når låneren fornyer via SMS.
+6.2.2 Model Felt Beskrivelse Eksempel
+data.agency
+Biblioteket
+data.agency.name
+Bibliotekets navn
+Esbjerg Kommunes Biblioteker
+data.loaner
+data.loaner.addressCity
+Lånerens by
+Århus C
+data.loaner.addressStreet
+Lånerens adresse (gadenavn og nummer)
+Rådhuspladsen 7
+data.loaner.coName
+Lånerens c/o navn
+c/o Kasper Nielsen
+data.loaner.countryCode
+Lånerens land kode
+DK
+data.loaner.loanerGroups
+Lånerens lånergrupper
+data.loaner.loanerGroups.loanerGroupName
+Lånergruppens navn
+9b
+data.loaner.loanerGroups.loanerGroupNameWithHierarchyPath
+Lånergruppens navn vist med hele den hierarkiske sti
+Møllevang Skole/Elever/9b
+data.loaner.loanerGroups.loanerGroupNameWithRoot
+Lånergruppens navn vist med det første niveau i den hierarkiske sti
+Møllevang Skole/9b
+data.loaner.loanerNumber
+Lånerens lånernummer
+H1234567890
+data.loaner.name
+Lånerens fulde navn
+Mette Jensen
+data.loaner.preferredLanguage
+Lånerens foretrukne sprog
+dk
+data.loaner.zipCode
+Lånerens postnummer
+8000
+data.renewResults
+data.renewResults.ILLRenewedTentatively
+Hvorvidt fjernlånsmaterialet er fornyet med forbehold
+true
+data.renewResults.bibliographicRecord
+Den bibliografiske post for materialet som er udlånt
+data.renewResults.bibliographicRecord.author
+Postens forfatter
+Reuter Bjarne
+data.renewResults.bibliographicRecord.classification
+Postens DK5 klassificering
+86
+data.renewResults.bibliographicRecord.faust
+Postens FAUST-nummer
+21133345
+data.renewResults.bibliographicRecord.title
+Postens titel
+Zappa
+data.renewResults.bibliographicRecord.type
+Postens DK5 type
+bog
+data.renewResults.fulfilledReservationNote
+Reservationsnote på evt. opfyldt reservation
+Til læsekreds
+data.renewResults.itemNumber
+Materialenummer for materialet som er udlånt
+123456789
+data.renewResults.materialLoan
+Lånet som er foretaget
+data.renewResults.materialLoan.loanDate
+Lånets udlånsdato
+21. marts 2015
+data.renewResults.materialLoan.returnDate
+Lånets afleveringsdato
+21. marts 2015
+data.renewResults.periodicalName
+Udgave
+Vol. 6 Nr. 0 År 2015
+data.renewResults.renewed
+Hvorvidt materialet er fornyet
+true
+data.totalFailedRenewals
+Antallet af materialer, som ikke kunne fornys
+5
+data.totalSuccesfullRenewals
+Antallet af fornyede materialer
+5

@@ -1,0 +1,52 @@
+#4.7 Velkomst til ny låner
+##Velkomstbesked der sendes til nye lånere.
+###4.7.2 Model Felt Beskrivelse Eksempel
+data.agency
+Biblioteket
+data.agency.name
+Bibliotekets navn
+Esbjerg Kommunes Biblioteker
+data.branch
+Den filial låneren hører til på
+data.branch.name
+Filialens navn
+Horsens Bibliotek
+data.branch.shortName
+Filialens korte navn
+hb
+data.loaner
+Låneren der er blevet oprettet
+data.loaner.addressCity
+Lånerens by
+Århus C
+data.loaner.addressStreet
+Lånerens adresse (gadenavn og nummer)
+Rådhuspladsen 7
+data.loaner.coName
+Lånerens c/o navn
+c/o Kasper Nielsen
+data.loaner.countryCode
+Lånerens land kode
+DK
+data.loaner.loanerGroups
+Lånerens lånergrupper
+data.loaner.loanerGroups.loanerGroupName
+Lånergruppens navn
+9b
+data.loaner.loanerGroups.loanerGroupNameWithHierarchyPath
+Lånergruppens navn vist med hele den hierarkiske sti
+Møllevang Skole/Elever/9b
+data.loaner.loanerGroups.loanerGroupNameWithRoot
+Lånergruppens navn vist med det første niveau i den hierarkiske sti
+Møllevang Skole/9b
+data.loaner.loanerNumber
+Lånerens lånernummer
+data.loaner.name
+Lånerens fulde navn
+Mette Jensen
+data.loaner.preferredLanguage
+Lånerens foretrukne sprog
+en
+data.loaner.zipCode
+Lånerens postnummer
+8000

@@ -1,0 +1,10 @@
+{
+	"data": {
+		"branchName": "${(data.branchName)!""}",
+		"loanerNumber": "${(data.loanerNumber)!""}",
+		"loans": {
+			"materialNumber": "${(data.loans.materialNumber)!""}",
+			"returnDate": "${(data.loans.returnDate)!""}"
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"data": {
+		"agency": {
+			"name": "${(data.agency.name)!""}"
+		},
+		"loaner": {
+			"addressCity": "${(data.loaner.addressCity)!""}",
+			"addressStreet": "${(data.loaner.addressStreet)!""}",
+			"coName": "${(data.loaner.coName)!""}",
+			"countryCode": "${(data.loaner.countryCode)!""}",
+			"loanerGroups": {
+				"loanerGroupName": "${(data.loaner.loanerGroups.loanerGroupName)!""}",
+				"loanerGroupNameWithHierarchyPath": "${(data.loaner.loanerGroups.loanerGroupNameWithHierarchyPath)!""}",
+				"loanerGroupNameWithRoot": "${(data.loaner.loanerGroups.loanerGroupNameWithRoot)!""}"
+			},
+			"loanerNumber": "${(data.loaner.loanerNumber)!""}",
+			"name": "${(data.loaner.name)!""}",
+			"preferredLanguage": "${(data.loaner.preferredLanguage)!""}",
+			"zipCode": "${(data.loaner.zipCode)!""}"
+		},
+		"materialLoan": {
+			"loanDate": "${(data.materialLoan.loanDate)!""}",
+			"returnDate": "${(data.materialLoan.returnDate)!""}"
+		},
+		"periodicalName": "${(data.periodicalName)!""}",
+		"record": {
+			"author": "${(data.record.author)!""}",
+			"classification": "${(data.record.classification)!""}",
+			"faust": "${(data.record.faust)!""}",
+			"title": "${(data.record.title)!""}",
+			"type": "${(data.record.type)!""}"
+		}
+	}
+}

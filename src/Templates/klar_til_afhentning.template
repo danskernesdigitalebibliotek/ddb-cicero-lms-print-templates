@@ -1,0 +1,101 @@
+{
+	"data": {
+		"agency": {
+			"name": "${(data.agency.name)!""}"
+		},
+		"loaner": {
+			"addressCity": "${(data.loaner.addressCity)!""}",
+			"addressStreet": "${(data.loaner.addressStreet)!""}",
+			"coName": "${(data.loaner.coName)!""}",
+			"countryCode": "${(data.loaner.countryCode)!""}",
+			"loanerGroups": {
+				"loanerGroupName": "${(data.loaner.loanerGroups.loanerGroupName)!""}",
+				"loanerGroupNameWithHierarchyPath": "${(data.loaner.loanerGroups.loanerGroupNameWithHierarchyPath)!""}",
+				"loanerGroupNameWithRoot": "${(data.loaner.loanerGroups.loanerGroupNameWithRoot)!""}"
+			},
+			"loanerNumber": "${(data.loaner.loanerNumber)!""}",
+			"name": "${(data.loaner.name)!""}",
+			"preferredLanguage": "${(data.loaner.preferredLanguage)!""}",
+			"zipCode": "${(data.loaner.zipCode)!""}"
+		},
+		"material": {
+			"acquisitionDate": "${(data.material.acquisitionDate)!""}",
+			"activeBranch": {
+				"name": "${(data.material.activeBranch.name)!""}",
+				"shortName": "${(data.material.activeBranch.shortName)!""}"
+			},
+			"activeDepartment": {
+				"name": "${(data.material.activeDepartment.name)!""}",
+				"shortName": "${(data.material.activeDepartment.shortName)!""}"
+			},
+			"activeFloatGroupName": "${(data.material.activeFloatGroupName)!""}",
+			"activeLocation": {
+				"name": "${(data.material.activeLocation.name)!""}",
+				"shortName": "${(data.material.activeLocation.shortName)!""}"
+			},
+			"activeSublocation": {
+				"name": "${(data.material.activeSublocation.name)!""}",
+				"shortName": "${(data.material.activeSublocation.shortName)!""}"
+			},
+			"defaultBranch": {
+				"name": "${(data.material.defaultBranch.name)!""}",
+				"shortName": "${(data.material.defaultBranch.shortName)!""}"
+			},
+			"defaultDepartment": {
+				"name": "${(data.material.defaultDepartment.name)!""}",
+				"shortName": "${(data.material.defaultDepartment.shortName)!""}"
+			},
+			"defaultLocation": {
+				"name": "${(data.material.defaultLocation.name)!""}",
+				"shortName": "${(data.material.defaultLocation.shortName)!""}"
+			},
+			"defaultSublocation": {
+				"name": "${(data.material.defaultSublocation.name)!""}",
+				"shortName": "${(data.material.defaultSublocation.shortName)!""}"
+			},
+			"group": "${(data.material.group)!""}",
+			"itemNumber": "${(data.material.itemNumber)!""}",
+			"lastScannedBranch": {
+				"name": "${(data.material.lastScannedBranch.name)!""}",
+				"shortName": "${(data.material.lastScannedBranch.shortName)!""}"
+			},
+			"note": "${(data.material.note)!""}",
+			"periodical": "${(data.material.periodical)!""}",
+			"periodicalName": "${(data.material.periodicalName)!""}",
+			"theme": {
+				"department": {
+					"name": "${(data.material.theme.department.name)!""}",
+					"shortName": "${(data.material.theme.department.shortName)!""}"
+				},
+				"location": {
+					"name": "${(data.material.theme.location.name)!""}",
+					"shortName": "${(data.material.theme.location.shortName)!""}"
+				},
+				"name": "${(data.material.theme.name)!""}",
+				"sublocation": {
+					"name": "${(data.material.theme.sublocation.name)!""}",
+					"shortName": "${(data.material.theme.sublocation.shortName)!""}"
+				}
+			}
+		},
+		"record": {
+			"author": "${(data.record.author)!""}",
+			"classification": "${(data.record.classification)!""}",
+			"faust": "${(data.record.faust)!""}",
+			"title": "${(data.record.title)!""}",
+			"type": "${(data.record.type)!""}"
+		},
+		"reservation": {
+			"dateOfInterest": "${(data.reservation.dateOfInterest)!""}",
+			"latestPickupDate": "${(data.reservation.latestPickupDate)!""}",
+			"notes": "${(data.reservation.notes)!""}",
+			"periodical": "${(data.reservation.periodical)!""}",
+			"periodicalName": "${(data.reservation.periodicalName)!""}",
+			"pickupBranch": {
+				"name": "${(data.reservation.pickupBranch.name)!""}",
+				"shortName": "${(data.reservation.pickupBranch.shortName)!""}"
+			},
+			"reservationNumber": "${(data.reservation.reservationNumber)!""}"
+		}
+	}
+}

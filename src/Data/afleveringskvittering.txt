@@ -1,0 +1,83 @@
+5.3 Afleveringskvittering
+Kvittering når en låner har afleveret et antal materialer.
+5.3.2 Model Felt Beskrivelse Eksempel
+data.agencyName
+Biblioteket som materialet er afleveret på
+data.branchName
+Filial som materialet er afleveret på
+data.loanerSummary
+Låneren som har foretaget aflevering
+data.loanerSummary.balance
+Låners mellemværende
+150
+data.loanerSummary.loanerGroupNames
+De lånergrupper som låneren er tilknyttet
+[Alle, 9A]
+data.loanerSummary.loanerGroups
+Lånerens lånergrupper
+data.loanerSummary.loanerGroups.loanerGroupName
+Lånergruppens navn
+9b
+data.loanerSummary.loanerGroups.loanerGroupNameWithHierarchyPath
+Lånergruppens navn vist med hele den hierarkiske sti
+Møllevang Skole/Elever/9b
+data.loanerSummary.loanerGroups.loanerGroupNameWithRoot
+Lånergruppens navn vist med det første niveau i den hierarkiske sti
+Møllevang Skole/9b
+data.loanerSummary.loanerName
+Lånerens fulde navn
+Mette Jensen
+data.loanerSummary.loanerNumber
+Lånerens lånernummer
+data.loanerSummary.nextReturnDate
+Lånerens næste afleveringsfrist
+04. juli 2016
+data.loanerSummary.numberOfLateMaterials
+Antal materialer, hvor afleveringsfrist er overskredet
+5
+data.loanerSummary.numberOfLoans
+Antallet af udlånte materialer, som låneren pt. besidder
+7
+data.loanerSummary.numberOfReservedReady
+Antallet af materialer, som låneren har reserveret, men endnu ikke afhentet
+2
+data.loanerSummary.preferredLanguage
+Lånerens foretrukne sprog
+en
+data.materialModels
+Materialerne som er blevet afleveret
+data.materialModels.bibliographicRecord
+Den bibliografiske post for det materiale som er afleveret
+data.materialModels.bibliographicRecord.author
+Postens forfatter
+Reuter Bjarne
+data.materialModels.bibliographicRecord.classification
+Postens DK5 klassificering
+86
+data.materialModels.bibliographicRecord.faust
+Postens FAUST-nummer
+21133345
+data.materialModels.bibliographicRecord.title
+Postens titel
+Zappa
+data.materialModels.bibliographicRecord.type
+Postens DK5 type
+bog
+data.materialModels.itemNumber
+Materialets materialenummer
+123456789
+data.materialModels.loanedTime
+Materialets udlånsdato
+17. april 2015
+data.materialModels.periodicalName
+Udgave
+Vol. 6 Nr. 0 År 2015
+data.materialModels.returnDate
+Materialets afleveringsfrist
+17. maj 2015
+data.materialModels.returnedDate
+Materialets afleveringsdato
+17. maj 2015
+data.nrCheckedInMaterials
+Antallet af materialer som er blevet afleveret
+4

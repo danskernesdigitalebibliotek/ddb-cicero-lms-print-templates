@@ -1,0 +1,42 @@
+{
+	"data": {
+		"agency": {
+			"name": "${(data.agency.name)!""}"
+		},
+		"loaner": {
+			"addressCity": "${(data.loaner.addressCity)!""}",
+			"addressStreet": "${(data.loaner.addressStreet)!""}",
+			"coName": "${(data.loaner.coName)!""}",
+			"countryCode": "${(data.loaner.countryCode)!""}",
+			"loanerGroups": {
+				"loanerGroupName": "${(data.loaner.loanerGroups.loanerGroupName)!""}",
+				"loanerGroupNameWithHierarchyPath": "${(data.loaner.loanerGroups.loanerGroupNameWithHierarchyPath)!""}",
+				"loanerGroupNameWithRoot": "${(data.loaner.loanerGroups.loanerGroupNameWithRoot)!""}"
+			},
+			"loanerNumber": "${(data.loaner.loanerNumber)!""}",
+			"name": "${(data.loaner.name)!""}",
+			"preferredLanguage": "${(data.loaner.preferredLanguage)!""}",
+			"zipCode": "${(data.loaner.zipCode)!""}"
+		},
+		"renewResults": {
+			"ILLRenewedTentatively": "${(data.renewResults.ILLRenewedTentatively)!""}",
+			"bibliographicRecord": {
+				"author": "${(data.renewResults.bibliographicRecord.author)!""}",
+				"classification": "${(data.renewResults.bibliographicRecord.classification)!""}",
+				"faust": "${(data.renewResults.bibliographicRecord.faust)!""}",
+				"title": "${(data.renewResults.bibliographicRecord.title)!""}",
+				"type": "${(data.renewResults.bibliographicRecord.type)!""}"
+			},
+			"fulfilledReservationNote": "${(data.renewResults.fulfilledReservationNote)!""}",
+			"itemNumber": "${(data.renewResults.itemNumber)!""}",
+			"materialLoan": {
+				"loanDate": "${(data.renewResults.materialLoan.loanDate)!""}",
+				"returnDate": "${(data.renewResults.materialLoan.returnDate)!""}"
+			},
+			"periodicalName": "${(data.renewResults.periodicalName)!""}",
+			"renewed": "${(data.renewResults.renewed)!""}"
+		},
+		"totalFailedRenewals": "${(data.totalFailedRenewals)!""}",
+		"totalSuccesfullRenewals": "${(data.totalSuccesfullRenewals)!""}"
+	}
+}

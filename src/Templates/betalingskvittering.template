@@ -1,0 +1,33 @@
+{
+	"data": {
+		"amountPaid": "${(data.amountPaid)!""}",
+		"loaner": {
+			"addressCity": "${(data.loaner.addressCity)!""}",
+			"addressStreet": "${(data.loaner.addressStreet)!""}",
+			"coName": "${(data.loaner.coName)!""}",
+			"countryCode": "${(data.loaner.countryCode)!""}",
+			"loanerGroups": {
+				"loanerGroupName": "${(data.loaner.loanerGroups.loanerGroupName)!""}",
+				"loanerGroupNameWithHierarchyPath": "${(data.loaner.loanerGroups.loanerGroupNameWithHierarchyPath)!""}",
+				"loanerGroupNameWithRoot": "${(data.loaner.loanerGroups.loanerGroupNameWithRoot)!""}"
+			},
+			"loanerNumber": "${(data.loaner.loanerNumber)!""}",
+			"name": "${(data.loaner.name)!""}",
+			"preferredLanguage": "${(data.loaner.preferredLanguage)!""}",
+			"zipCode": "${(data.loaner.zipCode)!""}"
+		},
+		"loginBranchName": "${(data.loginBranchName)!""}",
+		"payments": {
+			"amountDue": "${(data.payments.amountDue)!""}",
+			"amountPaid": "${(data.payments.amountPaid)!""}",
+			"compensation": "${(data.payments.compensation)!""}",
+			"materialModelList": {
+				"author": "${(data.payments.materialModelList.author)!""}",
+				"itemNumber": "${(data.payments.materialModelList.itemNumber)!""}",
+				"periodicalName": "${(data.payments.materialModelList.periodicalName)!""}",
+				"title": "${(data.payments.materialModelList.title)!""}"
+			},
+			"receiptNumber": "${(data.payments.receiptNumber)!""}"
+		}
+	}
+}

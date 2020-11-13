@@ -1,0 +1,102 @@
+5.25 Udlånskvittering
+Kvittering når en låner har lånt et antal materialer.
+5.25.2 Model Felt Beskrivelse Eksempel
+data.agencyName
+Biblioteket som udlånet er foretaget på
+data.autoloan
+Autoudlånkvittering
+true
+data.branchName
+Filial som udlånet er foretaget på
+data.checkedOutMaterials
+Materialerne som er blevet udlånt
+data.checkedOutMaterials.ILLRenewedTentatively
+Hvorvidt fjernlånsmaterialet er fornyet med forbehold
+true
+data.checkedOutMaterials.bibliographicRecord
+Den bibliografiske post for materialet som er udlånt
+data.checkedOutMaterials.bibliographicRecord.author
+Postens forfatter
+Reuter Bjarne
+data.checkedOutMaterials.bibliographicRecord.classification
+Postens DK5 klassificering
+86
+data.checkedOutMaterials.bibliographicRecord.faust
+Postens FAUST-nummer
+21133345
+data.checkedOutMaterials.bibliographicRecord.title
+Postens titel
+Zappa
+data.checkedOutMaterials.bibliographicRecord.type
+Postens DK5 type
+bog
+data.checkedOutMaterials.fulfilledReservationNote
+Reservationsnote på evt. opfyldt reservation
+Til læsekreds
+data.checkedOutMaterials.itemNumber
+Materialenummer for materialet som er udlånt
+123456789
+data.checkedOutMaterials.materialLoan
+Lånet som er foretaget
+data.checkedOutMaterials.materialLoan.loanDate
+Lånets udlånsdato
+21. marts 2015
+data.checkedOutMaterials.materialLoan.returnDate
+Lånets afleveringsdato
+21. marts 2015
+data.checkedOutMaterials.periodicalName
+Udgave
+Vol. 6 Nr. 0 År 2015
+data.checkedOutMaterials.renewed
+Hvorvidt materialet er fornyet
+true
+data.loanerSummary
+Låneren som har foretaget et udlån
+data.loanerSummary.balance
+Låners mellemværende
+150
+data.loanerSummary.loanerGroupNames
+De lånergrupper som låneren er tilknyttet
+[Alle, 9A]
+data.loanerSummary.loanerGroups
+Lånerens lånergrupper
+data.loanerSummary.loanerGroups.loanerGroupName
+Lånergruppens navn
+9b
+data.loanerSummary.loanerGroups.loanerGroupNameWithHierarchyPath
+Lånergruppens navn vist med hele den hierarkiske sti
+Møllevang Skole/Elever/9b
+data.loanerSummary.loanerGroups.loanerGroupNameWithRoot
+Lånergruppens navn vist med det første niveau i den hierarkiske sti
+Møllevang Skole/9b
+data.loanerSummary.loanerName
+Lånerens fulde navn
+Mette Jensen
+data.loanerSummary.loanerNumber
+Lånerens lånernummer
+data.loanerSummary.nextReturnDate
+Lånerens næste afleveringsfrist
+04. juli 2016
+data.loanerSummary.numberOfLateMaterials
+Antal materialer, hvor afleveringsfrist er overskredet
+5
+data.loanerSummary.numberOfLoans
+Antallet af udlånte materialer, som låneren pt. besidder
+7
+data.loanerSummary.numberOfReservedReady
+Antallet af materialer, som låneren har reserveret, men endnu ikke afhentet
+2
+data.loanerSummary.preferredLanguage
+Lånerens foretrukne sprog
+en
+data.nrLendoutMaterials
+Antallet af materialer låneren har udlånt i alt (ikke kun i dette udlån)
+4
+data.nrRenewedMaterials
+Antallet af materialer som blev fornyet
+2
+data.primaryLoanerLoanerSummary
+Primær låner, kun tilgængelig hvis det drejer sig om viderelån
+data.receiptTitle
+Autoudlånkvittering eller Udlånskvittering titel
+Udlånskvittering

@@ -1,0 +1,85 @@
+{
+	"data": {
+		"agencyName": "${(data.agencyName)!""}",
+		"feesModel": {
+			"amount": "${(data.feesModel.amount)!""}",
+			"author": "${(data.feesModel.author)!""}",
+			"billDate": "${(data.feesModel.billDate)!""}",
+			"billNumber": "${(data.feesModel.billNumber)!""}",
+			"materialNumber": "${(data.feesModel.materialNumber)!""}",
+			"note": "${(data.feesModel.note)!""}",
+			"remainingAmount": "${(data.feesModel.remainingAmount)!""}",
+			"status": "${(data.feesModel.status)!""}",
+			"title": "${(data.feesModel.title)!""}",
+			"type": "${(data.feesModel.type)!""}"
+		},
+		"loanerModel": {
+			"addressCity": "${(data.loanerModel.addressCity)!""}",
+			"addressStreet": "${(data.loanerModel.addressStreet)!""}",
+			"coName": "${(data.loanerModel.coName)!""}",
+			"countryCode": "${(data.loanerModel.countryCode)!""}",
+			"loanerGroups": {
+				"loanerGroupName": "${(data.loanerModel.loanerGroups.loanerGroupName)!""}",
+				"loanerGroupNameWithHierarchyPath": "${(data.loanerModel.loanerGroups.loanerGroupNameWithHierarchyPath)!""}",
+				"loanerGroupNameWithRoot": "${(data.loanerModel.loanerGroups.loanerGroupNameWithRoot)!""}"
+			},
+			"loanerNumber": "${(data.loanerModel.loanerNumber)!""}",
+			"name": "${(data.loanerModel.name)!""}",
+			"preferredLanguage": "${(data.loanerModel.preferredLanguage)!""}",
+			"zipCode": "${(data.loanerModel.zipCode)!""}"
+		},
+		"loansModel": {
+			"author": "${(data.loansModel.author)!""}",
+			"combinedStatus": "${(data.loansModel.combinedStatus)!""}",
+			"loanTime": "${(data.loansModel.loanTime)!""}",
+			"materialCategory": "${(data.loansModel.materialCategory)!""}",
+			"materialNumber": "${(data.loansModel.materialNumber)!""}",
+			"materialTypes": "${(data.loansModel.materialTypes)!""}",
+			"price": "${(data.loansModel.price)!""}",
+			"returnDate": "${(data.loansModel.returnDate)!""}",
+			"status": "${(data.loansModel.status)!""}",
+			"statusIndicator": "${(data.loansModel.statusIndicator)!""}",
+			"title": "${(data.loansModel.title)!""}"
+		},
+		"loginBranchName": "${(data.loginBranchName)!""}",
+		"noOfLoans": "${(data.noOfLoans)!""}",
+		"noOfPendingReservations": "${(data.noOfPendingReservations)!""}",
+		"noOfReservationsForPickup": "${(data.noOfReservationsForPickup)!""}",
+		"pendingReservationsModel": {
+			"bibliographicRecordModel": {
+				"author": "${(data.pendingReservationsModel.bibliographicRecordModel.author)!""}",
+				"classification": "${(data.pendingReservationsModel.bibliographicRecordModel.classification)!""}",
+				"faust": "${(data.pendingReservationsModel.bibliographicRecordModel.faust)!""}",
+				"title": "${(data.pendingReservationsModel.bibliographicRecordModel.title)!""}",
+				"type": "${(data.pendingReservationsModel.bibliographicRecordModel.type)!""}"
+			},
+			"createdTime": "${(data.pendingReservationsModel.createdTime)!""}",
+			"dateOfInterest": "${(data.pendingReservationsModel.dateOfInterest)!""}",
+			"latestPickupDate": "${(data.pendingReservationsModel.latestPickupDate)!""}",
+			"materialNumber": "${(data.pendingReservationsModel.materialNumber)!""}",
+			"pickupBranch": "${(data.pendingReservationsModel.pickupBranch)!""}",
+			"queueNo": "${(data.pendingReservationsModel.queueNo)!""}",
+			"reservationNumber": "${(data.pendingReservationsModel.reservationNumber)!""}",
+			"reservationType": "${(data.pendingReservationsModel.reservationType)!""}"
+		},
+		"reservationsForPickupModel": {
+			"bibliographicRecordModel": {
+				"author": "${(data.reservationsForPickupModel.bibliographicRecordModel.author)!""}",
+				"classification": "${(data.reservationsForPickupModel.bibliographicRecordModel.classification)!""}",
+				"faust": "${(data.reservationsForPickupModel.bibliographicRecordModel.faust)!""}",
+				"title": "${(data.reservationsForPickupModel.bibliographicRecordModel.title)!""}",
+				"type": "${(data.reservationsForPickupModel.bibliographicRecordModel.type)!""}"
+			},
+			"createdTime": "${(data.reservationsForPickupModel.createdTime)!""}",
+			"dateOfInterest": "${(data.reservationsForPickupModel.dateOfInterest)!""}",
+			"latestPickupDate": "${(data.reservationsForPickupModel.latestPickupDate)!""}",
+			"materialNumber": "${(data.reservationsForPickupModel.materialNumber)!""}",
+			"pickupBranch": "${(data.reservationsForPickupModel.pickupBranch)!""}",
+			"queueNo": "${(data.reservationsForPickupModel.queueNo)!""}",
+			"reservationNumber": "${(data.reservationsForPickupModel.reservationNumber)!""}",
+			"reservationType": "${(data.reservationsForPickupModel.reservationType)!""}"
+		},
+		"totalAmounts": "${(data.totalAmounts)!""}",
+		"totalRemainingAmounts": "${(data.totalRemainingAmounts)!""}"
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"data": {
+		"checkoutReceiptPrintModels": {
+			"agencyName": "${(data.checkoutReceiptPrintModels.agencyName)!""}",
+			"autoloan": "${(data.checkoutReceiptPrintModels.autoloan)!""}",
+			"branchName": "${(data.checkoutReceiptPrintModels.branchName)!""}",
+			"checkedOutMaterials": {
+				"ILLRenewedTentatively": "${(data.checkoutReceiptPrintModels.checkedOutMaterials.ILLRenewedTentatively)!""}",
+				"bibliographicRecord": {
+					"author": "${(data.checkoutReceiptPrintModels.checkedOutMaterials.bibliographicRecord.author)!""}",
+					"classification": "${(data.checkoutReceiptPrintModels.checkedOutMaterials.bibliographicRecord.classification)!""}",
+					"faust": "${(data.checkoutReceiptPrintModels.checkedOutMaterials.bibliographicRecord.faust)!""}",
+					"title": "${(data.checkoutReceiptPrintModels.checkedOutMaterials.bibliographicRecord.title)!""}",
+					"type": "${(data.checkoutReceiptPrintModels.checkedOutMaterials.bibliographicRecord.type)!""}"
+				},
+				"fulfilledReservationNote": "${(data.checkoutReceiptPrintModels.checkedOutMaterials.fulfilledReservationNote)!""}",
+				"itemNumber": "${(data.checkoutReceiptPrintModels.checkedOutMaterials.itemNumber)!""}",
+				"materialLoan": {
+					"loanDate": "${(data.checkoutReceiptPrintModels.checkedOutMaterials.materialLoan.loanDate)!""}",
+					"returnDate": "${(data.checkoutReceiptPrintModels.checkedOutMaterials.materialLoan.returnDate)!""}"
+				},
+				"periodicalName": "${(data.checkoutReceiptPrintModels.checkedOutMaterials.periodicalName)!""}",
+				"renewed": "${(data.checkoutReceiptPrintModels.checkedOutMaterials.renewed)!""}"
+			},
+			"loanerSummary": {
+				"balance": "${(data.checkoutReceiptPrintModels.loanerSummary.balance)!""}",
+				"loanerGroupNames": "${(data.checkoutReceiptPrintModels.loanerSummary.loanerGroupNames)!""}",
+				"loanerGroups": {
+					"loanerGroupName": "${(data.checkoutReceiptPrintModels.loanerSummary.loanerGroups.loanerGroupName)!""}",
+					"loanerGroupNameWithHierarchyPath": "${(data.checkoutReceiptPrintModels.loanerSummary.loanerGroups.loanerGroupNameWithHierarchyPath)!""}",
+					"loanerGroupNameWithRoot": "${(data.checkoutReceiptPrintModels.loanerSummary.loanerGroups.loanerGroupNameWithRoot)!""}"
+				},
+				"loanerName": "${(data.checkoutReceiptPrintModels.loanerSummary.loanerName)!""}",
+				"loanerNumber": "${(data.checkoutReceiptPrintModels.loanerSummary.loanerNumber)!""}",
+				"nextReturnDate": "${(data.checkoutReceiptPrintModels.loanerSummary.nextReturnDate)!""}",
+				"numberOfLateMaterials": "${(data.checkoutReceiptPrintModels.loanerSummary.numberOfLateMaterials)!""}",
+				"numberOfLoans": "${(data.checkoutReceiptPrintModels.loanerSummary.numberOfLoans)!""}",
+				"numberOfReservedReady": "${(data.checkoutReceiptPrintModels.loanerSummary.numberOfReservedReady)!""}",
+				"preferredLanguage": "${(data.checkoutReceiptPrintModels.loanerSummary.preferredLanguage)!""}"
+			},
+			"nrLendoutMaterials": "${(data.checkoutReceiptPrintModels.nrLendoutMaterials)!""}",
+			"nrRenewedMaterials": "${(data.checkoutReceiptPrintModels.nrRenewedMaterials)!""}",
+			"primaryLoanerLoanerSummary": "${(data.checkoutReceiptPrintModels.primaryLoanerLoanerSummary)!""}",
+			"receiptTitle": "${(data.checkoutReceiptPrintModels.receiptTitle)!""}"
+		}
+	}
+}

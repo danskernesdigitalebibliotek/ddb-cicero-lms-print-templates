@@ -1,0 +1,45 @@
+{
+	"data": {
+		"agencyName": "${(data.agencyName)!""}",
+		"autoloan": "${(data.autoloan)!""}",
+		"branchName": "${(data.branchName)!""}",
+		"checkedOutMaterials": {
+			"ILLRenewedTentatively": "${(data.checkedOutMaterials.ILLRenewedTentatively)!""}",
+			"bibliographicRecord": {
+				"author": "${(data.checkedOutMaterials.bibliographicRecord.author)!""}",
+				"classification": "${(data.checkedOutMaterials.bibliographicRecord.classification)!""}",
+				"faust": "${(data.checkedOutMaterials.bibliographicRecord.faust)!""}",
+				"title": "${(data.checkedOutMaterials.bibliographicRecord.title)!""}",
+				"type": "${(data.checkedOutMaterials.bibliographicRecord.type)!""}"
+			},
+			"fulfilledReservationNote": "${(data.checkedOutMaterials.fulfilledReservationNote)!""}",
+			"itemNumber": "${(data.checkedOutMaterials.itemNumber)!""}",
+			"materialLoan": {
+				"loanDate": "${(data.checkedOutMaterials.materialLoan.loanDate)!""}",
+				"returnDate": "${(data.checkedOutMaterials.materialLoan.returnDate)!""}"
+			},
+			"periodicalName": "${(data.checkedOutMaterials.periodicalName)!""}",
+			"renewed": "${(data.checkedOutMaterials.renewed)!""}"
+		},
+		"loanerSummary": {
+			"balance": "${(data.loanerSummary.balance)!""}",
+			"loanerGroupNames": "${(data.loanerSummary.loanerGroupNames)!""}",
+			"loanerGroups": {
+				"loanerGroupName": "${(data.loanerSummary.loanerGroups.loanerGroupName)!""}",
+				"loanerGroupNameWithHierarchyPath": "${(data.loanerSummary.loanerGroups.loanerGroupNameWithHierarchyPath)!""}",
+				"loanerGroupNameWithRoot": "${(data.loanerSummary.loanerGroups.loanerGroupNameWithRoot)!""}"
+			},
+			"loanerName": "${(data.loanerSummary.loanerName)!""}",
+			"loanerNumber": "${(data.loanerSummary.loanerNumber)!""}",
+			"nextReturnDate": "${(data.loanerSummary.nextReturnDate)!""}",
+			"numberOfLateMaterials": "${(data.loanerSummary.numberOfLateMaterials)!""}",
+			"numberOfLoans": "${(data.loanerSummary.numberOfLoans)!""}",
+			"numberOfReservedReady": "${(data.loanerSummary.numberOfReservedReady)!""}",
+			"preferredLanguage": "${(data.loanerSummary.preferredLanguage)!""}"
+		},
+		"nrLendoutMaterials": "${(data.nrLendoutMaterials)!""}",
+		"nrRenewedMaterials": "${(data.nrRenewedMaterials)!""}",
+		"primaryLoanerLoanerSummary": "${(data.primaryLoanerLoanerSummary)!""}",
+		"receiptTitle": "${(data.receiptTitle)!""}"
+	}
+}

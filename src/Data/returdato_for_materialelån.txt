@@ -1,0 +1,198 @@
+4.18 Returdato for materialelån nærmer sig
+Påmindelse til låner angående materialelån, hvis returdato nærmer sig.
+4.18.2 Model Felt Beskrivelse Eksempel
+data.agency
+Biblioteket
+data.agency.name
+Bibliotekets navn
+Esbjerg Kommunes Biblioteker
+data.loaner
+Låneren der påmindes
+data.loaner.addressCity
+Lånerens by
+Århus C
+data.loaner.addressStreet
+Lånerens adresse (gadenavn og nummer)
+Rådhuspladsen 7
+data.loaner.coName
+Lånerens c/o navn
+c/o Kasper Nielsen
+data.loaner.countryCode
+Lånerens land kode
+DK
+data.loaner.loanerGroups
+Lånerens lånergrupper
+data.loaner.loanerGroups.loanerGroupName
+Lånergruppens navn
+9b
+data.loaner.loanerGroups.loanerGroupNameWithHierarchyPath
+Lånergruppens navn vist med hele den hierarkiske sti
+Møllevang Skole/Elever/9b
+data.loaner.loanerGroups.loanerGroupNameWithRoot
+Lånergruppens navn vist med det første niveau i den hierarkiske sti
+Møllevang Skole/9b
+data.loaner.loanerNumber
+Lånerens lånernummer
+data.loaner.name
+Lånerens fulde navn
+Mette Jensen
+data.loaner.preferredLanguage
+Lånerens foretrukne sprog
+en
+data.loaner.zipCode
+Lånerens postnummer
+8000
+data.materialLoans
+Lånene, som låneren påmindes om
+data.materialLoans.loan
+Lånet der påmindes om
+data.materialLoans.loan.loanDate
+Lånets udlånsdato
+21. marts 2015
+data.materialLoans.loan.returnDate
+Lånets afleveringsdato
+21. marts 2015
+data.materialLoans.material
+Det lånte materiale
+data.materialLoans.material.acquisitionDate
+Materialets accessionsdato
+22. oktober 2012
+data.materialLoans.material.activeBranch
+Materialets placering (filial)
+data.materialLoans.material.activeBranch.name
+Filialens navn
+Horsens Bibliotek
+data.materialLoans.material.activeBranch.shortName
+Filialens korte navn
+hb
+data.materialLoans.material.activeDepartment
+Materialets placering (afdeling)
+data.materialLoans.material.activeDepartment.name
+Afdelingens fulde navn
+Skønlitteratur
+data.materialLoans.material.activeDepartment.shortName
+Afdelingens korte navn
+SK
+data.materialLoans.material.activeFloatGroupName
+Materialets aktive flydegruppe
+data.materialLoans.material.activeLocation
+Materialets placering (opstilling)
+data.materialLoans.material.activeLocation.name
+Opstillingens navn
+Voksen
+data.materialLoans.material.activeLocation.shortName
+Forkortet version af opstillingens navn
+VOK
+data.materialLoans.material.activeSublocation
+Materialets placering (delopstilling)
+data.materialLoans.material.activeSublocation.name
+Delopstillingens navn
+VOK
+data.materialLoans.material.activeSublocation.shortName
+Forkortet version af delopstillingens navn
+VOK
+data.materialLoans.material.defaultBranch
+Materialets placering (filial)
+data.materialLoans.material.defaultBranch.name
+Filialens navn
+Horsens Bibliotek
+data.materialLoans.material.defaultBranch.shortName
+Filialens korte navn
+hb
+data.materialLoans.material.defaultDepartment
+Materialets placering (afdeling)
+data.materialLoans.material.defaultDepartment.name
+Afdelingens fulde navn
+Skønlitteratur
+data.materialLoans.material.defaultDepartment.shortName
+Afdelingens korte navn
+SK
+data.materialLoans.material.defaultLocation
+Materialets placering (opstilling)
+data.materialLoans.material.defaultLocation.name
+Opstillingens navn
+Voksen
+data.materialLoans.material.defaultLocation.shortName
+Forkortet version af opstillingens navn
+VOK
+data.materialLoans.material.defaultSublocation
+Materialets placering (delopstilling)
+data.materialLoans.material.defaultSublocation.name
+Delopstillingens navn
+VOK
+data.materialLoans.material.defaultSublocation.shortName
+Forkortet version af delopstillingens navn
+VOK
+data.materialLoans.material.group
+Materialets materialegruppe
+14 dages lån
+data.materialLoans.material.itemNumber
+Materialets materialenummer
+123456789
+data.materialLoans.material.lastScannedBranch
+Materialets sidste scannede placering
+data.materialLoans.material.lastScannedBranch.name
+Filialens navn
+Horsens Bibliotek
+data.materialLoans.material.lastScannedBranch.shortName
+Filialens korte navn
+hb
+data.materialLoans.material.note
+Note om materialet
+Mangler CD
+data.materialLoans.material.periodical
+Sand hvis materiale er et periodikum, ellers falsk
+true
+data.materialLoans.material.periodicalName
+Udgave af periodika, hvis materialet er et periodikum
+Vol. 1, nr. 6, år 2015
+data.materialLoans.material.theme
+Materialets tema
+data.materialLoans.material.theme.department
+Materialets placering (afdeling), indefor temaet
+data.materialLoans.material.theme.department.name
+Afdelingens fulde navn
+Skønlitteratur
+data.materialLoans.material.theme.department.shortName
+Afdelingens korte navn
+SK
+data.materialLoans.material.theme.location
+Materialets placering (opstilling), indefor temaet
+data.materialLoans.material.theme.location.name
+Opstillingens navn
+Voksen
+data.materialLoans.material.theme.location.shortName
+Forkortet version af opstillingens navn
+VOK
+data.materialLoans.material.theme.name
+Temaets navn
+H.C. Andersen året
+data.materialLoans.material.theme.sublocation
+Materialets placering (delopstilling), indefor temaet
+data.materialLoans.material.theme.sublocation.name
+Delopstillingens navn
+VOK
+data.materialLoans.material.theme.sublocation.shortName
+Forkortet version af delopstillingens navn
+VOK
+data.materialLoans.price
+Materialets pris
+80
+data.materialLoans.record
+Den bibliografiske post for det lånte materiale
+data.materialLoans.record.author
+Postens forfatter
+Reuter Bjarne
+data.materialLoans.record.classification
+Postens DK5 klassificering
+86
+data.materialLoans.record.faust
+Postens FAUST-nummer
+21133345
+data.materialLoans.record.title
+Postens titel
+Zappa
+data.materialLoans.record.type
+Postens DK5 type
+bog
+

@@ -1,0 +1,66 @@
+{
+	"data": {
+		"agency": {
+			"name": "${(data.agency.name)!""}"
+		},
+		"compensations": {
+			"amount": "${(data.compensations.amount)!""}",
+			"balanceDate": "${(data.compensations.balanceDate)!""}",
+			"billNumber": "${(data.compensations.billNumber)!""}",
+			"createdDate": "${(data.compensations.createdDate)!""}",
+			"dueDate": "${(data.compensations.dueDate)!""}",
+			"migratedBillNumber": "${(data.compensations.migratedBillNumber)!""}",
+			"returnDate": "${(data.compensations.returnDate)!""}",
+			"state": "${(data.compensations.state)!""}",
+			"text": "${(data.compensations.text)!""}",
+			"materialLoan": {
+				"author": "${(data.compensations.materialLoan.author)!""}",
+				"loanDate": "${(data.compensations.materialLoan.loanDate)!""}",
+				"materialNumber": "${(data.compensations.materialLoan.materialNumber)!""}",
+				"periodicalName": "${(data.compensations.materialLoan.periodicalName)!""}",
+				"returnedDate": "${(data.compensations.materialLoan.returnedDate)!""}",
+				"title": "${(data.compensations.materialLoan.title)!""}"
+			}
+		},
+		"daysUntilDue": "${(data.daysUntilDue)!""}",
+		"fees": {
+			"amount": "${(data.fees.amount)!""}",
+			"balanceDate": "${(data.fees.balanceDate)!""}",
+			"billNumber": "${(data.fees.billNumber)!""}",
+			"createdDate": "${(data.fees.createdDate)!""}",
+			"dueDate": "${(data.fees.dueDate)!""}",
+			"migratedBillNumber": "${(data.fees.migratedBillNumber)!""}",
+			"returnDate": "${(data.fees.returnDate)!""}",
+			"state": "${(data.fees.state)!""}",
+			"text": "${(data.fees.text)!""}",
+			"loanDate": "${(data.fees.loanDate)!""}",
+			"materialLoans": {
+				"author": "${(data.fees.materialLoans.author)!""}",
+				"loanDate": "${(data.fees.materialLoans.loanDate)!""}",
+				"materialNumber": "${(data.fees.materialLoans.materialNumber)!""}",
+				"periodicalName": "${(data.fees.materialLoans.periodicalName)!""}",
+				"returnedDate": "${(data.fees.materialLoans.returnedDate)!""}",
+				"title": "${(data.fees.materialLoans.title)!""}"
+			}
+		},
+		"loaner": {
+			"addressCity": "${(data.loaner.addressCity)!""}",
+			"addressStreet": "${(data.loaner.addressStreet)!""}",
+			"coName": "${(data.loaner.coName)!""}",
+			"countryCode": "${(data.loaner.countryCode)!""}",
+			"loanerGroups": {
+				"loanerGroupName": "${(data.loaner.loanerGroups.loanerGroupName)!""}",
+				"loanerGroupNameWithHierarchyPath": "${(data.loaner.loanerGroups.loanerGroupNameWithHierarchyPath)!""}",
+				"loanerGroupNameWithRoot": "${(data.loaner.loanerGroups.loanerGroupNameWithRoot)!""}"
+			},
+			"loanerNumber": "${(data.loaner.loanerNumber)!""}",
+			"name": "${(data.loaner.name)!""}",
+			"preferredLanguage": "${(data.loaner.preferredLanguage)!""}",
+			"zipCode": "${(data.loaner.zipCode)!""}"
+		},
+		"sentToCollectionRulesApply": "${(data.sentToCollectionRulesApply)!""}",
+		"sumOfCompensations": "${(data.sumOfCompensations)!""}",
+		"sumOfFees": "${(data.sumOfFees)!""}",
+		"total": "${(data.total)!""}"
+	}
+}

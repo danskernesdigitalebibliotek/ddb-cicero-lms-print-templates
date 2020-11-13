@@ -1,0 +1,6 @@
+{
+	"data": {
+		"branchName": "${(data.branchName)!""}",
+		"materialNumbers": "${(data.materialNumbers)!""}"
+	}
+}

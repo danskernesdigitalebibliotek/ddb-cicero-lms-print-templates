@@ -1,0 +1,213 @@
+# 4.12 Reserveret materiale klar til afhentning
+## Notifikation til låner om at reserveret materiale er klar til afhentning.
+### 4.12.2 Model Felt Beskrivelse Eksempel
+data.agency
+Biblioteket
+data.agency.name
+Bibliotekets navn
+Esbjerg Kommunes Biblioteker
+data.loaner
+Låneren der notificeres om at reserveret materiale kan afhentes
+data.loaner.addressCity
+Lånerens by
+Århus C
+data.loaner.addressStreet
+Lånerens adresse (gadenavn og nummer)
+Rådhuspladsen 7
+data.loaner.coName
+Lånerens c/o navn
+c/o Kasper Nielsen
+data.loaner.countryCode
+Lånerens land kode
+DK
+data.loaner.loanerGroups
+Lånerens lånergrupper
+data.loaner.loanerGroups.loanerGroupName
+Lånergruppens navn
+9b
+data.loaner.loanerGroups.loanerGroupNameWithHierarchyPath
+Lånergruppens navn vist med hele den hierarkiske sti
+Møllevang Skole/Elever/9b
+data.loaner.loanerGroups.loanerGroupNameWithRoot
+Lånergruppens navn vist med det første niveau i den hierarkiske sti
+Møllevang Skole/9b
+data.loaner.loanerNumber
+Lånerens lånernummer
+data.loaner.name
+Lånerens fulde navn
+Mette Jensen
+data.loaner.preferredLanguage
+Lånerens foretrukne sprog
+en
+data.loaner.zipCode
+Lånerens postnummer
+8000
+data.material
+Materialet der kan afhentes
+data.material.acquisitionDate
+Materialets accessionsdato
+22. oktober 2012
+data.material.activeBranch
+Materialets placering (filial)
+data.material.activeBranch.name
+Filialens navn
+Horsens Bibliotek
+data.material.activeBranch.shortName
+Filialens korte navn
+hb
+data.material.activeDepartment
+Materialets placering (afdeling)
+data.material.activeDepartment.name
+Afdelingens fulde navn
+Skønlitteratur
+data.material.activeDepartment.shortName
+Afdelingens korte navn
+SK
+data.material.activeFloatGroupName
+Materialets aktive flydegruppe
+data.material.activeLocation
+Materialets placering (opstilling)
+data.material.activeLocation.name
+Opstillingens navn
+Voksen
+data.material.activeLocation.shortName
+Forkortet version af opstillingens navn
+VOK
+data.material.activeSublocation
+Materialets placering (delopstilling)
+data.material.activeSublocation.name
+Delopstillingens navn
+VOK
+data.material.activeSublocation.shortName
+Forkortet version af delopstillingens navn
+VOK
+data.material.defaultBranch
+Materialets placering (filial)
+data.material.defaultBranch.name
+Filialens navn
+Horsens Bibliotek
+data.material.defaultBranch.shortName
+Filialens korte navn
+hb
+data.material.defaultDepartment
+Materialets placering (afdeling)
+data.material.defaultDepartment.name
+Afdelingens fulde navn
+Skønlitteratur
+data.material.defaultDepartment.shortName
+Afdelingens korte navn
+SK
+data.material.defaultLocation
+Materialets placering (opstilling)
+data.material.defaultLocation.name
+Opstillingens navn
+Voksen
+data.material.defaultLocation.shortName
+Forkortet version af opstillingens navn
+VOK
+data.material.defaultSublocation
+Materialets placering (delopstilling)
+data.material.defaultSublocation.name
+Delopstillingens navn
+VOK
+data.material.defaultSublocation.shortName
+Forkortet version af delopstillingens navn
+VOK
+data.material.group
+Materialets materialegruppe
+14 dages lån
+data.material.itemNumber
+Materialets materialenummer
+123456789
+data.material.lastScannedBranch
+Materialets sidste scannede placering
+data.material.lastScannedBranch.name
+Filialens navn
+Horsens Bibliotek
+data.material.lastScannedBranch.shortName
+Filialens korte navn
+hb
+data.material.note
+Note om materialet
+Mangler CD
+data.material.periodical
+Sand hvis materiale er et periodikum, ellers falsk
+true
+data.material.periodicalName
+Udgave af periodika, hvis materialet er et periodikum
+Vol. 1, nr. 6, år 2015
+data.material.theme
+Materialets tema
+data.material.theme.department
+Materialets placering (afdeling), indefor temaet
+data.material.theme.department.name
+Afdelingens fulde navn
+Skønlitteratur
+data.material.theme.department.shortName
+Afdelingens korte navn
+SK
+data.material.theme.location
+Materialets placering (opstilling), indefor temaet
+data.material.theme.location.name
+Opstillingens navn
+Voksen
+data.material.theme.location.shortName
+Forkortet version af opstillingens navn
+VOK
+data.material.theme.name
+Temaets navn
+H.C. Andersen året
+data.material.theme.sublocation
+Materialets placering (delopstilling), indefor temaet
+data.material.theme.sublocation.name
+Delopstillingens navn
+VOK
+data.material.theme.sublocation.shortName
+Forkortet version af delopstillingens navn
+VOK
+data.record
+Den bibliografiske post for det materiale der kan afhentes
+data.record.author
+Postens forfatter
+Reuter Bjarne
+data.record.classification
+Postens DK5 klassificering
+86
+data.record.faust
+Postens FAUST-nummer
+21133345
+data.record.title
+Postens titel
+Zappa
+data.record.type
+Postens DK5 type
+bog
+data.reservation
+Reservationen af materialet der kan afhentes
+data.reservation.dateOfInterest
+Interessedato for reservationen
+17. april 2015
+data.reservation.latestPickupDate
+Seneste afhentningsdato for reservationen
+04. juli 2015
+data.reservation.notes
+Note til reservation
+Til læsekreds
+data.reservation.periodical
+Sand hvis reservationen er af et periodikum, ellers falsk
+true
+data.reservation.periodicalName
+Udgave af periodika, hvis reservationen er af et periodikum
+Vol. 1, nr. 6, år 2015
+data.reservation.pickupBranch
+Afhentningsfilial
+Horsens Bibliotek
+data.reservation.pickupBranch.name
+Filialens navn
+Horsens Bibliotek
+data.reservation.pickupBranch.shortName
+Filialens korte navn
+hb
+data.reservation.reservationNumber
+Reservationsnummer for reservationen
+3

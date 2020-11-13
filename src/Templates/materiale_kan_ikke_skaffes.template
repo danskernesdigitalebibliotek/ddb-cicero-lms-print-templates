@@ -1,0 +1,41 @@
+{
+	"data": {
+		"agency": {
+			"name": "${(data.agency.name)!""}"
+		},
+		"loaner": {
+			"addressCity": "${(data.loaner.addressCity)!""}",
+			"addressStreet": "${(data.loaner.addressStreet)!""}",
+			"coName": "${(data.loaner.coName)!""}",
+			"countryCode": "${(data.loaner.countryCode)!""}",
+			"loanerGroups": {
+				"loanerGroupName": "${(data.loaner.loanerGroups.loanerGroupName)!""}",
+				"loanerGroupNameWithHierarchyPath": "${(data.loaner.loanerGroups.loanerGroupNameWithHierarchyPath)!""}",
+				"loanerGroupNameWithRoot": "${(data.loaner.loanerGroups.loanerGroupNameWithRoot)!""}"
+			},
+			"loanerNumber": "${(data.loaner.loanerNumber)!""}",
+			"name": "${(data.loaner.name)!""}",
+			"preferredLanguage": "${(data.loaner.preferredLanguage)!""}",
+			"zipCode": "${(data.loaner.zipCode)!""}"
+		},
+		"record": {
+			"author": "${(data.record.author)!""}",
+			"classification": "${(data.record.classification)!""}",
+			"faust": "${(data.record.faust)!""}",
+			"title": "${(data.record.title)!""}",
+			"type": "${(data.record.type)!""}"
+		},
+		"reservation": {
+			"dateOfInterest": "${(data.reservation.dateOfInterest)!""}",
+			"latestPickupDate": "${(data.reservation.latestPickupDate)!""}",
+			"notes": "${(data.reservation.notes)!""}",
+			"periodical": "${(data.reservation.periodical)!""}",
+			"periodicalName": "${(data.reservation.periodicalName)!""}",
+			"pickupBranch": {
+				"name": "${(data.reservation.pickupBranch.name)!""}",
+				"shortName": "${(data.reservation.pickupBranch.shortName)!""}"
+			},
+			"reservationNumber": "${(data.reservation.reservationNumber)!""}"
+		}
+	}
+}

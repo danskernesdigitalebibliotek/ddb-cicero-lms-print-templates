@@ -1,0 +1,96 @@
+{
+	"data": {
+		"agency": {
+			"name": "${(data.agency.name)!""}"
+		},
+		"loaner": {
+			"addressCity": "${(data.loaner.addressCity)!""}",
+			"addressStreet": "${(data.loaner.addressStreet)!""}",
+			"coName": "${(data.loaner.coName)!""}",
+			"countryCode": "${(data.loaner.countryCode)!""}",
+			"loanerGroups": {
+				"loanerGroupName": "${(data.loaner.loanerGroups.loanerGroupName)!""}",
+				"loanerGroupNameWithHierarchyPath": "${(data.loaner.loanerGroups.loanerGroupNameWithHierarchyPath)!""}",
+				"loanerGroupNameWithRoot": "${(data.loaner.loanerGroups.loanerGroupNameWithRoot)!""}"
+			},
+			"loanerNumber": "${(data.loaner.loanerNumber)!""}",
+			"name": "${(data.loaner.name)!""}",
+			"preferredLanguage": "${(data.loaner.preferredLanguage)!""}",
+			"zipCode": "${(data.loaner.zipCode)!""}"
+		},
+		"materialLoans": {
+			"loan": {
+				"loanDate": "${(data.materialLoans.loan.loanDate)!""}",
+				"returnDate": "${(data.materialLoans.loan.returnDate)!""}"
+			},
+			"material": {
+				"acquisitionDate": "${(data.materialLoans.material.acquisitionDate)!""}",
+				"activeBranch": {
+					"name": "${(data.materialLoans.material.activeBranch.name)!""}",
+					"shortName": "${(data.materialLoans.material.activeBranch.shortName)!""}"
+				},
+				"activeDepartment": {
+					"name": "${(data.materialLoans.material.activeDepartment.name)!""}",
+					"shortName": "${(data.materialLoans.material.activeDepartment.shortName)!""}"
+				},
+				"activeFloatGroupName": "${(data.materialLoans.material.activeFloatGroupName)!""}",
+				"activeLocation": {
+					"name": "${(data.materialLoans.material.activeLocation.name)!""}",
+					"shortName": "${(data.materialLoans.material.activeLocation.shortName)!""}"
+				},
+				"activeSublocation": {
+					"name": "${(data.materialLoans.material.activeSublocation.name)!""}",
+					"shortName": "${(data.materialLoans.material.activeSublocation.shortName)!""}"
+				},
+				"defaultBranch": {
+					"name": "${(data.materialLoans.material.defaultBranch.name)!""}",
+					"shortName": "${(data.materialLoans.material.defaultBranch.shortName)!""}"
+				},
+				"defaultDepartment": {
+					"name": "${(data.materialLoans.material.defaultDepartment.name)!""}",
+					"shortName": "${(data.materialLoans.material.defaultDepartment.shortName)!""}"
+				},
+				"defaultLocation": {
+					"name": "${(data.materialLoans.material.defaultLocation.name)!""}",
+					"shortName": "${(data.materialLoans.material.defaultLocation.shortName)!""}"
+				},
+				"defaultSublocation": {
+					"name": "${(data.materialLoans.material.defaultSublocation.name)!""}",
+					"shortName": "${(data.materialLoans.material.defaultSublocation.shortName)!""}"
+				},
+				"group": "${(data.materialLoans.material.group)!""}",
+				"itemNumber": "${(data.materialLoans.material.itemNumber)!""}",
+				"lastScannedBranch": {
+					"name": "${(data.materialLoans.material.lastScannedBranch.name)!""}",
+					"shortName": "${(data.materialLoans.material.lastScannedBranch.shortName)!""}"
+				},
+				"note": "${(data.materialLoans.material.note)!""}",
+				"periodical": "${(data.materialLoans.material.periodical)!""}",
+				"periodicalName": "${(data.materialLoans.material.periodicalName)!""}",
+				"theme": {
+					"department": {
+						"name": "${(data.materialLoans.material.theme.department.name)!""}",
+						"shortName": "${(data.materialLoans.material.theme.department.shortName)!""}"
+					},
+					"location": {
+						"name": "${(data.materialLoans.material.theme.location.name)!""}",
+						"shortName": "${(data.materialLoans.material.theme.location.shortName)!""}"
+					},
+					"name": "${(data.materialLoans.material.theme.name)!""}",
+					"sublocation": {
+						"name": "${(data.materialLoans.material.theme.sublocation.name)!""}",
+						"shortName": "${(data.materialLoans.material.theme.sublocation.shortName)!""}"
+					}
+				}
+			},
+			"price": "${(data.materialLoans.price)!""}",
+			"record": {
+				"author": "${(data.materialLoans.record.author)!""}",
+				"classification": "${(data.materialLoans.record.classification)!""}",
+				"faust": "${(data.materialLoans.record.faust)!""}",
+				"title": "${(data.materialLoans.record.title)!""}",
+				"type": "${(data.materialLoans.record.type)!""}"
+			}
+		}
+	}
+}

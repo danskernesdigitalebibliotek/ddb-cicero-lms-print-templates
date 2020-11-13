@@ -1,0 +1,16 @@
+5.19 Udlånskvittering fra nødsystem
+Kvittering når en låner har lånt et antal materialer i nødsystemet. Dette betyder, at der udelukkende er informationer om lånernummer og materialenumre, og altså hverken detaljer om materialer eller låner.
+5.19.2 Model Felt Beskrivelse Eksempel
+data.branchName
+Filial som udlånet er foretaget på
+data.loanerNumber
+Lånernummeret på den låner, som har lånt materialerne
+123456789
+data.loans
+De udlån som er foretaget
+data.loans.materialNumber
+Materialenummer for det udlånte materiale
+111111111
+data.loans.returnDate
+Afleveringsdato for det udlånte materiale
+21. marts 2015

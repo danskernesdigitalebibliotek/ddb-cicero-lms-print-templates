@@ -1,0 +1,161 @@
+#4.21 Saldoopgørelse
+#Saldoopgørelse til låneren
+#4.21.2 Model Felt Beskrivelse Eksempel
+data.agency
+Aktuelle bibliotek
+data.agency.name
+Bibliotekets navn
+Esbjerg Kommunes Biblioteker
+data.compensations
+Samling af lånerens ubetalte erstatninger
+data.compensations.amount
+Regningsbeløb
+106.32
+data.compensations.balanceDate
+Dato for handlingen der udløste beregningen af mellemværendet. Dette kan f.eks. være når låneren afleverer eller fornyer for sent, eller når erstatningsjobbet opretter mellemværendet
+30. oktober 2019
+data.compensations.billNumber
+Regningsnummer
+10234
+data.compensations.createdDate
+Mellemværendets oprettelsesdato
+30. oktober 2019
+data.compensations.dueDate
+Mellemværendets betalingsfrist
+30. november 2019
+data.compensations.migratedBillNumber
+Gamle Regningsnummer
+dde43563
+data.compensations.returnDate
+Materialets afleveringsfrist
+20. oktober 2019
+data.compensations.state
+Mellemværendets status. Kan have følgende værdier: CREATED, SENT_TO_COLLECTION
+CREATED
+data.compensations.text
+Mellemværendets tekst
+Bogen er afleveret for sent
+data.compensations.materialLoan
+Materialelånet der er udskrevet erstatning for
+data.compensations.materialLoan.author
+Materialets forfatter
+J.K. Rowling
+data.compensations.materialLoan.loanDate
+Udlånsdato
+15. august 2019
+data.compensations.materialLoan.materialNumber
+Materialenummer
+3829213522
+data.compensations.materialLoan.periodicalName
+Udgave
+235
+data.compensations.materialLoan.returnedDate
+Dato hvor afleveret
+30. oktober 2019
+data.compensations.materialLoan.title
+Materialets titel
+Harry Potter
+data.daysUntilDue
+Konfigureret antal dage fra et mellemværende bliver oprettet til det senest skal betales.
+30
+data.fees
+Samling af lånerens ubetalte gebyrer
+data.fees.amount
+Regningsbeløb
+106.32
+data.fees.balanceDate
+Dato for handlingen der udløste beregningen af mellemværendet. Dette kan f.eks. være når låneren afleverer eller fornyer for sent, eller når erstatningsjobbet opretter mellemværendet
+30. oktober 2019
+data.fees.billNumber
+Regningsnummer
+10234
+data.fees.createdDate
+Mellemværendets oprettelsesdato
+30. oktober 2019
+data.fees.dueDate
+Mellemværendets betalingsfrist
+30. november 2019
+data.fees.migratedBillNumber
+Gamle Regningsnummer
+dde43563
+data.fees.returnDate
+Materialets afleveringsfrist
+20. oktober 2019
+data.fees.state
+Mellemværendets status. Kan have følgende værdier: CREATED, SENT_TO_COLLECTION
+CREATED
+data.fees.text
+Mellemværendets tekst
+Bogen er afleveret for sent
+data.fees.loanDate
+Udlånsdatoen for de lån gebyret dækker. Dette kan være udlånsdato eller seneste dato for fornyelse/sat i bero.
+20. september 2019
+data.fees.materialLoans
+Materialelånene dette gebyr er udskrevet for
+data.fees.materialLoans.author
+Materialets forfatter
+J.K. Rowling
+data.fees.materialLoans.loanDate
+Udlånsdato
+15. august 2019
+data.fees.materialLoans.materialNumber
+Materialenummer
+3829213522
+data.fees.materialLoans.periodicalName
+Udgave
+235
+data.fees.materialLoans.returnedDate
+Dato hvor afleveret
+30. oktober 2019
+data.fees.materialLoans.title
+Materialets titel
+Harry Potter
+data.loaner
+Låneren som har skyldige gebyrer og/eller erstatninger
+data.loaner.addressCity
+Lånerens by
+Århus C
+data.loaner.addressStreet
+Lånerens adresse (gadenavn og nummer)
+Rådhuspladsen 7
+data.loaner.coName
+Lånerens c/o navn
+c/o Kasper Nielsen
+data.loaner.countryCode
+Lånerens land kode
+DK
+data.loaner.loanerGroups
+Lånerens lånergrupper
+data.loaner.loanerGroups.loanerGroupName
+Lånergruppens navn
+9b
+data.loaner.loanerGroups.loanerGroupNameWithHierarchyPath
+Lånergruppens navn vist med hele den hierarkiske sti
+Møllevang Skole/Elever/9b
+data.loaner.loanerGroups.loanerGroupNameWithRoot
+Lånergruppens navn vist med det første niveau i den hierarkiske sti
+Møllevang Skole/9b
+data.loaner.loanerNumber
+Lånerens lånernummer
+H1234567890
+data.loaner.name
+Lånerens fulde navn
+Mette Jensen
+data.loaner.preferredLanguage
+Lånerens foretrukne sprog
+dk
+data.loaner.zipCode
+Lånerens postnummer
+8000
+data.sentToCollectionRulesApply
+Om reglerne om at blive sendt til inddrivelse er gældende for denne låner. Det er tilfældet hvis låneren er en voksen person eller er en privat virksomhed.
+true
+data.sumOfCompensations
+Summen af ubetalte erstatninger
+106.32
+data.sumOfFees
+Summen af ubetalte gebyrer
+106.32
+data.total
+Summen af ubetalte erstatninger og gebyrer
+212.64

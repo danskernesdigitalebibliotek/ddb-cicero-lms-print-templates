@@ -1,0 +1,109 @@
+# 4.5 Udlån
+## Notifikation til låner angående et udlån.
+### 4.5.2 Model Felt Beskrivelse Eksempel
+data.agency
+Biblioteket
+data.agency.name
+Bibliotekets navn
+Esbjerg Kommunes Biblioteker
+data.receiptModel
+Data til udlånskvittering
+data.receiptModel.agencyName
+Biblioteket som udlånet er foretaget på
+data.receiptModel.autoloan
+Autoudlånkvittering
+true
+data.receiptModel.branchName
+Filial som udlånet er foretaget på
+data.receiptModel.checkedOutMaterials
+Materialerne som er blevet udlånt
+data.receiptModel.checkedOutMaterials.ILLRenewedTentatively
+Hvorvidt fjernlånsmaterialet er fornyet med forbehold
+true
+data.receiptModel.checkedOutMaterials.bibliographicRecord
+Den bibliografiske post for materialet som er udlånt
+data.receiptModel.checkedOutMaterials.bibliographicRecord.author
+Postens forfatter
+Reuter Bjarne
+data.receiptModel.checkedOutMaterials.bibliographicRecord.classification
+Postens DK5 klassificering
+86
+data.receiptModel.checkedOutMaterials.bibliographicRecord.faust
+Postens FAUST-nummer
+21133345
+data.receiptModel.checkedOutMaterials.bibliographicRecord.title
+Postens titel
+Zappa
+data.receiptModel.checkedOutMaterials.bibliographicRecord.type
+Postens DK5 type
+bog
+data.receiptModel.checkedOutMaterials.fulfilledReservationNote
+Reservationsnote på evt. opfyldt reservation
+Til læsekreds
+data.receiptModel.checkedOutMaterials.itemNumber
+Materialenummer for materialet som er udlånt
+123456789
+data.receiptModel.checkedOutMaterials.materialLoan
+Lånet som er foretaget
+data.receiptModel.checkedOutMaterials.materialLoan.loanDate
+Lånets udlånsdato
+21. marts 2015
+data.receiptModel.checkedOutMaterials.materialLoan.returnDate
+Lånets afleveringsdato
+21. marts 2015
+data.receiptModel.checkedOutMaterials.periodicalName
+Udgave
+Vol. 6 Nr. 0 År 2015
+data.receiptModel.checkedOutMaterials.renewed
+Hvorvidt materialet er fornyet
+true
+data.receiptModel.loanerSummary
+Låneren som har foretaget et udlån
+data.receiptModel.loanerSummary.balance
+Låners mellemværende
+150
+data.receiptModel.loanerSummary.loanerGroupNames
+De lånergrupper som låneren er tilknyttet
+[Alle, 9A]
+data.receiptModel.loanerSummary.loanerGroups
+Lånerens lånergrupper
+data.receiptModel.loanerSummary.loanerGroups.loanerGroupName
+Lånergruppens navn
+9b
+data.receiptModel.loanerSummary.loanerGroups.loanerGroupNameWithHierarchyPath
+Lånergruppens navn vist med hele den hierarkiske sti
+Møllevang Skole/Elever/9b
+data.receiptModel.loanerSummary.loanerGroups.loanerGroupNameWithRoot
+Lånergruppens navn vist med det første niveau i den hierarkiske sti
+Møllevang Skole/9b
+data.receiptModel.loanerSummary.loanerName
+Lånerens fulde navn
+Mette Jensen
+data.receiptModel.loanerSummary.loanerNumber
+Lånerens lånernummer
+data.receiptModel.loanerSummary.nextReturnDate
+Lånerens næste afleveringsfrist
+04. juli 2016
+data.receiptModel.loanerSummary.numberOfLateMaterials
+Antal materialer, hvor afleveringsfrist er overskredet
+5
+data.receiptModel.loanerSummary.numberOfLoans
+Antallet af udlånte materialer, som låneren pt. besidder
+7
+data.receiptModel.loanerSummary.numberOfReservedReady
+Antallet af materialer, som låneren har reserveret, men endnu ikke afhentet
+2
+data.receiptModel.loanerSummary.preferredLanguage
+Lånerens foretrukne sprog
+en
+data.receiptModel.nrLendoutMaterials
+Antallet af materialer låneren har udlånt i alt (ikke kun i dette udlån)
+4
+data.receiptModel.nrRenewedMaterials
+Antallet af materialer som blev fornyet
+2
+data.receiptModel.primaryLoanerLoanerSummary
+Primær låner, kun tilgængelig hvis det drejer sig om viderelån
+data.receiptModel.receiptTitle
+Autoudlånkvittering eller Udlånskvittering titel
+Udlånskvittering

@@ -1,0 +1,75 @@
+#4.6 Fjernlån kan ikke fornyes
+##Notifikation til låner angående fjernlån der ikke kan fornyes
+##4.6.2 Model Felt Beskrivelse Eksempel
+data.agency
+Biblioteket
+data.agency.name
+Bibliotekets navn
+Esbjerg Kommunes Biblioteker
+data.loaner
+Låneren der notificeres om at fjernlånet ikke kan fornyes
+data.loaner.addressCity
+Lånerens by
+Århus C
+data.loaner.addressStreet
+Lånerens adresse (gadenavn og nummer)
+Rådhuspladsen 7
+data.loaner.coName
+Lånerens c/o navn
+c/o Kasper Nielsen
+data.loaner.countryCode
+Lånerens land kode
+DK
+data.loaner.loanerGroups
+Lånerens lånergrupper
+data.loaner.loanerGroups.loanerGroupName
+Lånergruppens navn
+9b
+data.loaner.loanerGroups.loanerGroupNameWithHierarchyPath
+Lånergruppens navn vist med hele den hierarkiske sti
+Møllevang Skole/Elever/9b
+data.loaner.loanerGroups.loanerGroupNameWithRoot
+Lånergruppens navn vist med det første niveau i den hierarkiske sti
+Møllevang Skole/9b
+data.loaner.loanerNumber
+Lånerens lånernummer
+data.loaner.name
+Lånerens fulde navn
+Mette Jensen
+data.loaner.preferredLanguage
+Lånerens foretrukne sprog
+en
+data.loaner.zipCode
+Lånerens postnummer
+8000
+data.materialLoan
+Det lånte materiale der ikke kan fornyes
+data.materialLoan.loanDate
+Lånets udlånsdato
+21. marts 2015
+data.materialLoan.returnDate
+Lånets afleveringsdato
+21. marts 2015
+data.periodicalName
+Udgave
+Vol. 6 Nr. 0 År 2015
+data.record
+Den bibliografiske post for fjernlånet
+data.record.author
+Postens forfatter
+Reuter Bjarne
+data.record.classification
+Postens DK5 klassificering
+86
+data.record.faust
+Postens FAUST-nummer
+21133345
+FÆLLES BIBLIOTEKSSYSTEM
+14
+SSE/14789/USM/0013 $Revision: 1.124$ $Date: 25 Nov 2019$
+data.record.title
+Postens titel
+Zappa
+data.record.type
+Postens DK5 type
+bog
