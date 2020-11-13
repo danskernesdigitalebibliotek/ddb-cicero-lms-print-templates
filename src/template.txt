@@ -1,0 +1,35 @@
+{
+	"data": {
+		"basicBibliographicRecordInfo": {
+			"author": "${(data.basicBibliographicRecordInfo.author)!""}",
+			"classification": "${(data.basicBibliographicRecordInfo.classification)!""}",
+			"faust": "${(data.basicBibliographicRecordInfo.faust)!""}",
+			"title": "${(data.basicBibliographicRecordInfo.title)!""}",
+			"type": "${(data.basicBibliographicRecordInfo.type)!""}"
+		},
+		"branchName": "${(data.branchName)!""}",
+		"dateOfInterest": "${(data.dateOfInterest)!""}",
+		"itemNumber": "${(data.itemNumber)!""}",
+		"latestPickupDate": "${(data.latestPickupDate)!""}",
+		"loanerInfo": {
+			"addressCity": "${(data.loanerInfo.addressCity)!""}",
+			"addressStreet": "${(data.loanerInfo.addressStreet)!""}",
+			"coName": "${(data.loanerInfo.coName)!""}",
+			"countryCode": "${(data.loanerInfo.countryCode)!""}",
+			"loanerGroups": {
+				"loanerGroupName": "${(data.loanerInfo.loanerGroups.loanerGroupName)!""}",
+				"loanerGroupNameWithHierarchyPath": "${(data.loanerInfo.loanerGroups.loanerGroupNameWithHierarchyPath)!""}",
+				"loanerGroupNameWithRoot": "${(data.loanerInfo.loanerGroups.loanerGroupNameWithRoot)!""}"
+			},
+			"loanerNumber": "${(data.loanerInfo.loanerNumber)!""}",
+			"name": "${(data.loanerInfo.name)!""}",
+			"preferredLanguage": "${(data.loanerInfo.preferredLanguage)!""}",
+			"zipCode": "${(data.loanerInfo.zipCode)!""}"
+		},
+		"notes": "${(data.notes)!""}",
+		"periodical": "${(data.periodical)!""}",
+		"periodicalName": "${(data.periodicalName)!""}",
+		"pickupNotificationSent": "${(data.pickupNotificationSent)!""}",
+		"reservationNumber": "${(data.reservationNumber)!""}"
+	}
+}

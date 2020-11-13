@@ -1,0 +1,79 @@
+<#ftl output_format="JSON">
+<#-- @ftlvariable name="data" type="com.dantek.dl.client.administrationclient.models.PickupNoteReceiptModel" -->
+<#-- Eksempel på JSON skabelon for reservationsnote -->
+
+{
+	"data": {
+		"basicBibliographicRecordInfo": {
+			"faust": "${(data.basicBibliographicRecordInfo.faust)!""}",
+			"title": "${(data.basicBibliographicRecordInfo.title)!""}",
+			"author": "${(data.basicBibliographicRecordInfo.author)!""}",
+			"type": "${(data.basicBibliographicRecordInfo.type)!""}",
+			"classification": "${(data.basicBibliographicRecordInfo.classification)!""}"
+		},
+		"branchName": "${(data.branchName)!""}",
+		"dateOfInterest": "${(data.dateOfInterest)!""}",
+
+		"itemNumber": "${(data.itemNumber)!""}",
+		"latestPickupDate": "${(data.latestPickupDate)!""}",
+		"dateOfInterest": "${(data.dateOfInterest)!""}",
+
+		"loanerInfo": {
+			"addressCity": "${data.loanerInfo.addressCity!""}",
+			"addressStreet": "${data.loanerInfo.addressStreet!""}",
+			"coName": "${data.loanerInfo.coName!""}",
+			"countryCode": "${data.loanerInfo.countryCode!""}",
+			"loanerGroups": "${data.loanerInfo.loanerGroups!""}",
+			"loanerGroups.loanerGroupName": "${data.loanerInfo.loanerGroups.loanerGroupName!""}",
+			"loanerGroups.loanerGroupNameWithHierarchyPath": "${data.loanerInfo.loanerGroups.loanerGroupNameWithHierarchyPath!""}",
+			"loanerGroups.loanerGroupNameWithRoot": "${data.loanerInfo.loanerGroups.loanerGroupNameWithRoot!""}",
+			"loanerNumber": "${data.loanerInfo.loanerNumber!""}",
+			"name": "${data.loanerInfo.name!""}",
+			"preferredLanguage": "${data.loanerInfo.preferredLanguage!""}",
+			"zipCode": "${data.loanerInfo.zipCode!""}",
+		},
+
+		"notes": "${data.notes!""}",
+<#if data.periodical>
+		"periodical": "${data.periodical!""}",
+		"periodicalName": "${data.periodicalName!""}",
+</#if>
+		"pickupNotificationSent": "${data.pickupNotificationSent!""}",
+		"reservationNumber": "${data.reservationNumber!""}",
+	}
+}
+
+<#--
+data.basicBibliographicRecordInfo	Basale bibliografisk post informationer
+data.basicBibliographicRecordInfo.author	Postens forfatter	Reuter Bjarne
+data.basicBibliographicRecordInfo.classification	Postens DK5 klassificering	86
+data.basicBibliographicRecordInfo.faust	Postens FAUST-nummer	21133345
+data.basicBibliographicRecordInfo.title	Postens titel	Zappa
+
+data.branchName	Filialens navn	Horsens Bibliotek
+data.dateOfInterest	Interessedato for reservationen	17. april 2015
+data.itemNumber	Materialets materialenummer	123456789
+data.latestPickupDate	Seneste afhentningsdato for reservationen	04. juli 2015
+
+data.loanerInfo	Reservationens låner	
+data.loanerInfo.addressCity	Lånerens by	Århus C
+data.loanerInfo.addressStreet	Lånerens adresse (gadenavn og nummer)	Rådhuspladsen 7
+data.loanerInfo.coName	Lånerens c/o navn	c/o Kasper Nielsen
+data.loanerInfo.countryCode	Lånerens land kode	DK
+data.loanerInfo.loanerGroups	Lånerens lånergrupper
+data.loanerInfo.loanerGroups.loanerGroupName	Lånergruppens navn	9b
+data.loanerInfo.loanerGroups.loanerGroupNameWithHierarchyPath	Lånergruppens navn vist med hele den hierarkiske sti	Møllevang Skole/Elever/9b
+data.loanerInfo.loanerGroups.loanerGroupNameWithRoot	Lånergruppens navn vist med det første niveau i den hierarkiske sti	Møllevang Skole/9b
+data.loanerInfo.loanerNumber	Lånerens lånernummer
+data.loanerInfo.name	Lånerens fulde navn	Mette Jensen
+data.loanerInfo.preferredLanguage	Lånerens foretrukne sprog	en
+data.loanerInfo.zipCode	Lånerens postnummer	8000
+
+data.notes	Note til reservation	Til læsekreds
+
+data.periodical	Sand hvis reservationen er af et periodikum, ellers falsk	true
+data.periodicalName	Udgave af periodika, hvis reservationen er af et periodikum	Vol. 1, nr. 6, år 2015
+
+data.pickupNotificationSent	Er der afsendt en notifikation om at Reservationen er klar til afhentning?	true
+data.reservationNumber	Reservationsnummer for reservationen	3
+-->
