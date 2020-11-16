@@ -1,3 +1,6 @@
+<#-- XX5.16 Afleveringskvittering fra nødsystem -->
+<#-- XXKvittering når en låner har afleveret et antal materialer i nødsystemet. Dette betyder, at der udelukkende er informationer om materialenumre, og altså hverken detaljer om materialer eller låner. -->
+<#-- XX5.18 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"branchName": "${(data.branchName)!""}",

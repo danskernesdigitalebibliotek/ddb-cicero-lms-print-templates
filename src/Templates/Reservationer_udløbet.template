@@ -1,3 +1,6 @@
+<#-- XX4.15 Reservationer udløbet -->
+<#-- XXNotifikation til låner angående de af lånerens reservationer, som er udløbet. -->
+<#-- XX4.15.2 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"agency": {

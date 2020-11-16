@@ -1,3 +1,6 @@
+<#-- #4.7 Velkomst til ny låner -->
+<#-- ##Velkomstbesked der sendes til nye lånere. -->
+<#-- ###4.7.2 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"agency": {

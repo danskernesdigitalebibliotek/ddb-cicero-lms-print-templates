@@ -1,3 +1,6 @@
+<#-- # 4.9 Materiale kan ikke skaffes -->
+<#-- ## Notifikation til låner om at ønsket materialet ikke kan skaffes. -->
+<#-- ### 4.9.2 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"agency": {

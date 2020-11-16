@@ -1,3 +1,6 @@
+<#-- XX5.19 Udlånskvittering fra nødsystem -->
+<#-- XXKvittering når en låner har lånt et antal materialer i nødsystemet. Dette betyder, at der udelukkende er informationer om lånernummer og materialenumre, og altså hverken detaljer om materialer eller låner. -->
+<#-- XX5.19.2 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"branchName": "${(data.branchName)!""}",

@@ -1,3 +1,6 @@
+<#-- XX4.13 Reservationer slettet -->
+<#-- XXNotifikation til låner angående en af lånerens reservationer, som er blevet slettet. -->
+<#-- XX4.13.2 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"agency": {

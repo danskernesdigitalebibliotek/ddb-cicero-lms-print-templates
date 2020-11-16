@@ -1,3 +1,6 @@
+<#-- XX5.7 Betalingskvittering -->
+<#-- XXKvittering når en låner har betalt erstatning og/eller gebyr. -->
+<#-- XX5.7.2 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"amountPaid": "${(data.amountPaid)!""}",

@@ -1,3 +1,6 @@
+<#-- XX5.5 Gruppeudlånskvittering -->
+<#-- XXKvittering når en bruger har udlånt materialer til et antal materialer. -->
+<#-- XX5.5.2 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"checkoutReceiptPrintModels": {

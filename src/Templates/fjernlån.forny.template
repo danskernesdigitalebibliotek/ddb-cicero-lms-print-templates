@@ -1,3 +1,6 @@
+<#-- #4.6 Fjernlån kan ikke fornyes -->
+<#-- ##Notifikation til låner angående fjernlån der ikke kan fornyes -->
+<#-- ##4.6.2 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"agency": {

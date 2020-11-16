@@ -1,3 +1,6 @@
+<#-- XX4.10 Reserveret materiale klar til afhentning ved skranken -->
+<#-- XXNotifikation til låner om at reserveret materiale er klar til afhentning ved skranken. -->
+<#-- XX4.10.2 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"agency": {

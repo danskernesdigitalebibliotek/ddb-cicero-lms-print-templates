@@ -1,3 +1,6 @@
+<#-- XX5.25 Udlånskvittering -->
+<#-- XXKvittering når en låner har lånt et antal materialer. -->
+<#-- XX5.25.2 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"agencyName": "${(data.agencyName)!""}",

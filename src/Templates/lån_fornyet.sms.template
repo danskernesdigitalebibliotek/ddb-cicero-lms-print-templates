@@ -1,3 +1,6 @@
+<#-- XX6.2 SMS skabelon for "Lån fornyet" (SMS forny) -->
+<#-- XXDet svar som sendes retur til afsender per SMS, når låneren fornyer via SMS. -->
+<#-- XX6.2.2 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"agency": {

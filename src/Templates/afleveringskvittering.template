@@ -1,3 +1,6 @@
+<#-- XX5.3 Afleveringskvittering -->
+<#-- XXKvittering når en låner har afleveret et antal materialer. -->
+<#-- XX5.3.2 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"agencyName": "${(data.agencyName)!""}",

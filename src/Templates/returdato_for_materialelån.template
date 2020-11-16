@@ -1,3 +1,6 @@
+<#-- XX4.18 Returdato for materialelån nærmer sig -->
+<#-- XXPåmindelse til låner angående materialelån, hvis returdato nærmer sig. -->
+<#-- XX4.18.2 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"agency": {

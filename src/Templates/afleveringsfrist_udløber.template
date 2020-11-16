@@ -1,3 +1,6 @@
+<#-- #4.16 Afhentningsfrist udløber om et par dage -->
+<#-- ## Notifikation til låner angående en reservations afhentningsfrist dato nærmer sig. -->
+<#-- ### 4.16.2 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"agency": {

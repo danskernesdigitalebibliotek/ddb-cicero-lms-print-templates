@@ -1,3 +1,6 @@
+<#-- XX4.22 Automatisk blokering af låner -->
+<#-- XXBesked om udelukkelsen af lånere. -->
+<#-- XX4.22.2 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"agency": {

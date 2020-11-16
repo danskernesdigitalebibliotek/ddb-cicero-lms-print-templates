@@ -1,3 +1,6 @@
+<#-- # 4.11 Reserveret materiale klar i læsesalen -->
+<#-- ## Notifikation til låner om at reserveret materiale er klar i læsesalen. -->
+<#-- ### 4.11.2 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"agency": {

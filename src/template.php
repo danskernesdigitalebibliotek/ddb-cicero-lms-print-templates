@@ -3,11 +3,12 @@
  *  @file       template.php
  *  @brief      Building FBS template from model 
  *  
- *  @details    More details
+ *  @details    Converting models from documentation 
+ *              ("Opsætning og tilpasning af udskrifter Cicero LMS.pdf") to JSON templates
  *  @copyright  http://www.gnu.org/licenses/lgpl.txt LGPL version 3
  *  @author     Erik Bachmann <ErikBachmann@ClicketyClick.dk>
  *  @since      2020-11-13T14:41:07
- *  @version    2020-11-13T14:41:07
+ *  @version    2020-11-16T08:49:28
  */
 
 $arr		= [];
@@ -21,26 +22,25 @@ $data		= file_get_contents($datafile);
 $data		= str_replace( "\r", "", $data );	// Trim CR
 $data		= explode("\n", $data );
 
-
-//var_export( $data );
+//----------------------------------------------------------------------
 
 foreach( $data as $line ) {
-	if (strpos($line, "#") === 0) continue;	// Skip comments #
+	if (strpos($line, "#") === 0) {
+		printf( "<#-- %s -->\n", $line );
+		continue;	// Skip comments #
+	}
 	if (strpos($line, "data.") === 0) {
 		$fullarr	= array_merge_recursive($fullarr, $arr);
 		$arr	= [];
 		$parr	= &$arr;
-		//echo "Key: [$line]\n";
 		foreach( explode( '.',  $line ) as $key ) {
 			$parr[$key]	= false;
 			$parr	= &$parr[$key];
 		}
-		//var_export( $arr );
-		//echo json_encode($arr);
 	} else {
 		if ( empty( $arr ) ) {
 			fputs( STDERR, "Note: $line\n" );
-			//continue;
+			printf( "<#-- # %s -->\n", $line );	Lines from header without key
 		} else
 			$parr	.= "$line ";
 	}
@@ -89,12 +89,10 @@ function buildTemplateJson( $fullarr, &$depth ) {
 		if ( $key && $count++)
 			echo ",\n";
 
-		//echo "\n";
 		if ($key) {
 			echo str_repeat( "\t", $depth );
 			echo "\"$key\": ";
 		}
-		//echo implode( "-", $stack ) . "\t";
 		
 		if ( isset( $fullarr[$key] ) ) {
 			if ( is_array( $fullarr[$key] ) ) {
@@ -106,10 +104,11 @@ function buildTemplateJson( $fullarr, &$depth ) {
 				echo "}";
 			} else {
 				if ($key) echo  "\"\${(" . implode( ".", $stack ) . ")!\"\"}\"";
-				//echo "<#-- {$fullarr[$key]}] -->";
 			}
 		}
 		array_pop( $stack );
 	}
 	$depth--;
 }	// buildTemplateJson()
+
+?>

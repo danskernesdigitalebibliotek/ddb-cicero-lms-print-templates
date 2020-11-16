@@ -1,6 +1,6 @@
-4.19 Returdato for materialelån overskredet
-Påmindelse til låner angående materialelån, hvis returdato er overskredet.
-4.19.2 Model Felt Beskrivelse Eksempel
+# 4.19 Returdato for materialelån overskredet
+# Påmindelse til låner angående materialelån, hvis returdato er overskredet.
+# 4.19.2 Model Felt Beskrivelse Eksempel
 data.agency
 Biblioteket
 data.agency.name

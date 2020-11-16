@@ -1,3 +1,6 @@
+<#-- XX5.9 Lånerstatus -->
+<#-- XXOverblik over en låners lån, reservationer og mellemværende. -->
+<#-- XX5.9.2 Model Felt Beskrivelse Eksempel -->
 {
 	"data": {
 		"agencyName": "${(data.agencyName)!""}",
